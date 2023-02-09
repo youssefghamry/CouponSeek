@@ -1,0 +1,1 @@
+Please note that the included ACF PRO plugin cannot be distributed separately outside of the theme - http://www.advancedcustomfields.com/resources/including-acf-in-a-plugin-theme/

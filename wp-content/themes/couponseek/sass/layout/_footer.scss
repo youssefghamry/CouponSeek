@@ -1,0 +1,36 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Footer
+ * ----------------------------------------------------------------------------------------
+ */
+.FOOTER {
+	position: relative;
+	padding: 20px 0;
+	background-color: #fff;
+
+	&.has-widgets {
+		padding: 70px 0 20px;
+	}
+
+	&.footer-dark {
+		background-color: $colorBgDark;
+	}
+
+	> .bg-image {
+		background-repeat: repeat;
+		background-size: initial;
+	}
+
+	.copyright {
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: 1px;
+		font-weight: 800;
+		font-size: 13px;
+	}
+
+	p:last-of-type {
+		margin-bottom: 0;
+	}
+
+}

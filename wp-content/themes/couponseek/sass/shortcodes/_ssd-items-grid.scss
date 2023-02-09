@@ -1,0 +1,135 @@
+.SSDItemsGrid {
+	.items-row {
+		@extend %clearfix;
+	}
+	.items-row-title {
+		color: $colorTextLight;
+	}
+	.items-columns-1 {
+		.item-wrapper {
+			width: 100%;
+			text-align: left;
+		}
+	}
+	.items-columns-2 .item-wrapper {
+		width: 50%;
+
+		&:nth-child(2n+1) {
+			clear: left;
+		}
+	}
+	.items-columns-3 .item-wrapper {
+		width: 33.333%;
+
+		&:nth-child(3n+1) {
+			clear: left;
+		}
+	}
+	.items-columns-4 .item-wrapper {
+		width: 25%;
+
+		&:nth-child(4n+1) {
+			clear: left;
+		}
+	}
+	.items-columns-5 .item-wrapper {
+		width: 20%;
+
+		&:nth-child(5n+1) {
+			clear: left;
+		}
+	}
+	.items-unordered {
+		overflow: hidden;
+
+		.item-wrapper {
+			margin-bottom: 40px;
+		}
+	}
+	.item-wrapper {
+		position: relative;
+		text-align: center;
+		display: inline-block;
+		float: left;
+		padding: 0 15px;
+	}
+
+
+	.ssd-item {
+		display: inline-block;
+		width: 100%;
+
+		.item-image {
+			box-shadow: 0px 44px 24px -34px rgba(224,224,224,0.5);
+		}
+
+		.item-title {
+			color: $colorTextLight;
+			margin: 15px 0;
+			font-size: 16px;
+			font-weight: 500;
+		}
+		.category-title {
+			font-size: 16px;
+			color: $colorMain;
+		}
+		.category-icon svg {
+			max-width: 100px;
+		}
+	}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1499px) {
+	.SSDItemsGrid {
+		.items-columns-4 .item-wrapper, .items-columns-5 .item-wrapper {
+			width: 33.333%;
+
+			&:nth-child(3n+1) {
+				clear: left;
+			}
+		}
+		.items-columns-4 .item-wrapper {
+			&:nth-child(4n+1) {
+				clear: none;
+			}
+		}
+		.items-columns-5 .item-wrapper {
+			&:nth-child(5n+1) {
+				clear: none;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.SSDItemsGrid {
+		.items-columns-4 .item-wrapper, .items-columns-5 .item-wrapper {
+			width: 50%;
+
+			&:nth-child(2n+1) {
+				clear: left;
+			}
+		}
+
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.SSDItemsGrid {
+		.items-columns-2 .item-wrapper, .items-columns-3 .item-wrapper, .items-columns-4 .item-wrapper, .items-columns-5 .item-wrapper {
+			width: 100%;
+		}
+		.item-row {
+			margin: 0 -5px;
+		}
+		.item-wrapper {
+			padding: 0 5px;
+		}
+	}
+	.SSDItemsGrid:not(.ProductCategories) {
+		.items-columns-3 .item-wrapper, .items-columns-2 .item-wrapper {
+			width: 100%;
+		}
+	}
+}

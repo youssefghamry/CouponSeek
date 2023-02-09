@@ -1,0 +1,27 @@
+.control-svg-dropdown.select2-dropdown {
+    z-index: 100050;
+}
+
+.control-svg-icon {
+    width:20px;
+    height:20px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.control-svg-icon.small {
+    width: 25px;
+    height: 19px;
+    margin-right: 10px;
+    margin-top: 3px;
+    float: left;
+    size: 2px;
+}
+
+.control-svg-span {
+    font-size: 14px;
+}
+
+.svg-dropdown-picker .select2-results__option {
+    margin: 0;
+}

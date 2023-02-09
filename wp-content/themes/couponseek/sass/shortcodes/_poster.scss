@@ -1,0 +1,152 @@
+/**
+* ----------------------------------------------------------------------------------------
+*    Poster
+* ----------------------------------------------------------------------------------------
+*/
+
+.Poster {
+
+	.poster-image-wrapper {
+		overflow: hidden;
+		min-height: 250px;
+		height: 100%;
+
+		iframe + video {
+			display: none;
+		}
+	}
+
+	.poster-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	.poster-image, .overlay-image {
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			opacity: 0;
+			transition: opacity .2s;
+		}
+	}
+
+	.poster-content-wrapper {
+		position: relative;
+		padding: 30px;
+
+		&:before {
+			position: absolute;
+			content: '';
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 0;
+		}
+
+		.poster-content {
+			position: relative;
+			display: inline-block;
+		}
+	}
+
+	.poster-button {
+		background-color: $colorMain;
+
+		&:hover {
+			color: $colorTextDark;
+			background-color: rgba(255, 255, 255,.65);
+		}
+	}
+
+	.poster-wrapper-left {
+		.poster-image-wrapper {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			width: 35%;
+		}
+		.poster-content-wrapper {
+			width: 65%;
+			left: 35%;
+		}
+	}
+
+	.poster-wrapper-right {
+		.poster-image-wrapper {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			width: 35%;
+		}
+		.poster-content-wrapper {
+			width: 65%;
+		}
+	}
+
+	.poster-wrapper-above {
+		.poster-image-wrapper {
+			position: relative;
+		}
+	}
+
+	.poster-wrapper-cover {
+		position: relative;
+		overflow: hidden;
+		
+		.poster-image-wrapper {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+		.poster-content-wrapper {
+			background-color: transparent;
+		}
+		.poster-content-wrapper, .poster-title {
+			color: #fff;
+		}
+	}
+
+	&:hover {
+		.poster-image, .overlay-image {
+			&:before {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.overlay-hover .Poster {
+	&:hover {
+		.overlay-image {
+			background-color: transparent !important;
+		}
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.Poster {
+		.poster-wrapper-left, .poster-wrapper-right {
+			.poster-image-wrapper {
+				position: relative;
+				width: 100% !important;
+				min-height: 300px;
+			}
+			.poster-content-wrapper {
+				width: 100% !important;
+				left: 0 !important;
+			}
+		}
+	}
+}

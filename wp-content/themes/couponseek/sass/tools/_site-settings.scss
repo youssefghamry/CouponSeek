@@ -1,0 +1,88 @@
+/**
+*  Colors
+*/
+
+// Base Colors
+// $colorMain: #ff3d7e; // #CF475C  #ef476f
+$colorMain: #FF52E5; // #CF475C  #ef476f
+$colorSecondary: #FFC25D;   // #F188A9 #334236 #71B2B5 #C39D63
+$colorAccent: #62DCED;
+
+// Background Colors
+$colorBgLight: #fafafa;
+$colorBgMedium: #eee;
+$colorBgDark: #232323; //150817
+$colorBgBody: #f7f7fa;
+
+// Text Colors
+$colorText: #484848;
+$colorTextMedium: #6c6c6c;
+$colorTextLight: #9c9b9b;
+$colorTextHeading: #222;
+$colorTextDark: #111;
+
+// Links
+$colorLink: $colorMain;
+$colorLinkHover: $colorSecondary;
+
+// Borders
+$colorBorder: $colorSecondary;
+$colorBorderDark: #747474;
+$colorBorderLight: #eaeaea;
+
+/**
+*  Typography
+*/
+
+// Subheading	
+
+// Font Family
+
+
+// Font Size
+$fontsize: 16px;
+$baseline: 1.82em;
+$letterspacing: 0em;
+$fontWeightBase: 400;
+$fontweightHeading: 700;
+
+/**
+*  Layout
+*/
+
+$marginleft: $baseline;
+$bootstrapSpacing: 30px;
+$bootstrapSpacingMobile: 15px;
+$borderRadius: 5px;
+
+/**
+*  Buttons
+*/
+
+// Buttons - Main
+$button_fontSize: 14px;
+$button_borderColor: $colorTextMedium;
+$button_borderWidth: 1px;
+$button_borderRadius : 50px;
+// Buttons - Colors
+$button_colorText: #000;
+$button_colorTextLight: #fff;
+$button_bgColored: $colorMain;
+// $button_bgColored: #fff;
+$button_bgColored2: #F6D242;
+$button_bgLight: $colorBgLight;
+$button_bgSuccess: #5CB85C;
+$button_bgInfo: #5BC0DE;
+$button_bgDanger: #D9534F;
+$button_bgWarning: #F0AD4E;
+// Buttons - Hover
+// $button_bgMainHover: $colorMain; // Background color of the main button on hover
+$button_bgMainHover: $colorMain; // Background color of the main button on hover
+$button_colorTextHover: #fff; //Text color of the main button on hover
+$button_borderColorHover: $colorMain; //Border color of the main button on hover
+ 
+
+/**
+*  Widgets
+*/
+$widget_marginbottom: 60px;

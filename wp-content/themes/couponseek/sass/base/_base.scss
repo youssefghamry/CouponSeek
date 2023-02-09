@@ -1,0 +1,354 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Base
+ * ----------------------------------------------------------------------------------------
+ */
+
+ body, html {
+ 	min-height: 100%;
+ }
+
+body {
+	color: $colorText;
+	font-size: $fontsize;
+	font-weight: $fontWeightBase;
+	line-height: $baseline;
+	letter-spacing: $letterspacing;
+	-webkit-font-smoothing: antialiased;
+	font-variant-ligatures: no-common-ligatures;
+	overflow-x: hidden;
+	word-wrap: break-word;
+	@if $colorBgBody {
+		background-color: $colorBgBody;
+	}
+	
+	&:before {
+		/* never visible - this is used in jQuery to check the current MQ */ 
+		content: 'mobile';
+		display: none;
+	}
+
+}
+
+/**
+ * Default spacing for paragraphs.
+ */
+p {
+	margin-bottom: $baseline;
+}
+
+p + p:last-of-type {
+	margin-bottom: 0;
+}
+
+/**
+*  Lists
+*/
+ul, ol {
+	padding-left: 30px;
+	margin-bottom: 20px;
+	list-style-position: outside;
+}
+
+
+/**
+ * Default styles for all headings.
+ */
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.8em;
+	color: $colorTextHeading;
+	font-weight: $fontweightHeading;
+	line-height: 1.4;
+	transition: .15s;
+}
+
+.elementor-widget-container {
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0;
+	}
+}
+
+
+/**
+ * Individual styles for the headings.
+ */
+h1 {
+	font-size: 56px;
+}
+
+h2 {
+	font-size: 44px;
+}
+
+h3 {
+	font-size: 38px;
+}
+
+h4 {
+	font-size: 34px;
+}
+
+h5 {
+	font-size: 24px;
+}
+
+h6 {
+	font-size: 20px;
+	margin-bottom: 1em;
+}
+
+/**
+ * Links.
+ */
+a, a:focus {
+	color: $colorLink;
+	text-decoration: none;
+	font-weight: 500;
+	outline: 0;
+	cursor: pointer;
+	transition: .15s;
+}
+
+a:hover, a:active {
+	color: $colorSecondary;
+	text-decoration: none;
+
+	.special-subtitle-type-2:before {
+		background-color: $colorSecondary;
+	}
+}
+
+a.link-border {
+	border-bottom: 2px solid $colorMain;
+}
+
+ /**
+ * Selection Color.
+ */
+::selection {
+	background: $colorMain;
+	color: #fff;
+}
+
+/**
+ * HR.
+ */
+hr {
+	margin: $baseline 0;
+	border-color: $colorBorder;
+}
+
+br {
+	margin-bottom: 10px;
+}
+/**
+ * Make sure videos and embeds fit inside their containers.
+ */
+embed,
+iframe,
+object,
+video {
+	max-width: 100%;
+}
+
+/**
+ * Code.
+ */
+code {
+	white-space: normal;
+}
+
+ /**
+ * Responsive Images.
+ */
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+	outline: 1px solid transparent;
+	filter: none;
+}
+
+ /**
+ * No Outline.
+ */
+*:focus {
+	outline: 0;
+}
+
+/**
+*  Other
+*/
+i {
+	display: inline-block;
+}
+
+del {
+	text-decoration-color: $colorSecondary;
+}
+
+pre {
+	font-family: inherit;
+	font-size: 16px;
+	border: none;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+/**
+*  Blockquote
+*/
+
+blockquote {
+	font-size: 17px;
+	font-style: italic;
+	margin: 30px 0;
+	padding: 10px 40px;
+	border-left: 5px solid $colorSecondary;
+
+	cite {
+		display: block;
+		font-style: normal;
+		font-size: 13px;
+		font-weight: 700;
+		letter-spacing: .3px;
+		text-transform: uppercase;
+		color: $colorTextHeading;
+	}
+}
+.wp-block-quote.is-large, .wp-block-quote.is-style-large {
+	margin: 40px 0;
+	padding: 10px 40px;
+
+	p {
+		font-size: 22px;
+		margin-bottom: 30px;
+	}
+}
+
+.wp-block-pullquote {
+	border-top: 4px solid $colorSecondary;
+	border-bottom: 4px solid $colorSecondary;
+	border-left: none;
+}
+
+/**
+*  Table
+*/
+
+table,
+.table,
+table.table {
+	border: none;
+	margin-bottom: $baseline;
+	width: 100%;
+	border-spacing: 0;
+	background-color: #fff;
+    box-shadow: 0px 17px 11px -14px rgba(0, 0, 0, 0.05), 0px 50px 32px -27px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+
+	th,
+	tr th,
+	& > thead > tr > th,
+	& > tfoot > tr > th,
+	& > tbody > tr > th {
+		padding: 40px;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom: none;
+		font-weight: 800;
+	}
+
+	td,
+	tr td,
+	td.label,
+	& > tbody > tr > td,
+	& > tfoot > tr > td,
+	& > thead > tr > td {
+		display: table-cell;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom: none;
+		font-weight: 400;
+		padding: 30px 40px;
+		font-size: 100%;
+		text-align: left;
+		vertical-align: middle;
+
+		p {
+			padding: 0;
+			margin: 0;
+		}
+
+		a {
+			color: $colorText;
+			font-weight: 800;
+
+			&:hover {
+				color: $colorSecondary;
+			}
+		}
+	}
+
+	tr {
+		font-style: normal;
+	}
+
+}
+
+table.table-condensed {
+	& > tbody > tr > th,
+	& > tfoot > tr > th,
+	& > thead > tr > th,
+	& > tbody > tr > td,
+	& > tfoot > tr > td,
+	& > thead > tr > td {
+		padding: 20px;
+	}
+}
+
+
+/**
+*  Legend
+*/
+legend {
+	padding-top: 40px;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 35px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+/**
+*  Definition List
+*/
+dt {
+	font-weight: 600;
+}
+
+dd {
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+/**
+*  Sup
+*/
+
+sup {
+	color: #c0392b;
+	left: 2px;
+}
+
+/**
+*  Mark
+*/
+
+mark {
+    color: #000;
+    background: none;
+    border-bottom: 1px dashed $colorSecondary;
+}

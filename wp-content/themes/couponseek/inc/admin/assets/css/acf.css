@@ -1,0 +1,63 @@
+/**
+* ----------------------------------------------------------------------------------------
+*   ACF Admin Fixes
+* ----------------------------------------------------------------------------------------
+*/
+
+.media-modal .acf-field input {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.media-modal .acf-field label {
+    float: right;
+    width: 100%;
+}
+
+.media-modal .acf-field .acf-input {
+    padding-left: 30px;
+}
+
+.acf-color_picker .wp-picker-holder,
+.wp-picker-open+.wp-picker-input-wrap {
+	position: relative;
+	z-index: 100;
+}
+
+
+/* Flexible Content Title Thumbnail */
+.acf-fc-layout-title {
+    display: inline-block;
+    position: relative;
+}
+.acf-fc-layout-title img {
+    position: absolute;
+    top: -6px;
+    left: 100%;
+    margin-left: 10px;
+}
+
+/* Google Maps */
+.search.gm-err-autocomplete,
+.gm-err-title {
+	display: none;
+}
+
+.gm-err-content {
+    border-radius: 1px;
+    padding-top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: static;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.gm-err-message {
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.gm-err-icon {
+	margin-bottom: 20px;
+}

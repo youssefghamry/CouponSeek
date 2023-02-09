@@ -1,0 +1,149 @@
+/**
+* ----------------------------------------------------------------------------------------
+*    Buttons
+* ----------------------------------------------------------------------------------------
+*/
+
+.btn, button[type='submit'], input[type='submit'] {
+	display: inline-block;
+	cursor: pointer;
+	color: $button_colorText;
+	font-size: $button_fontSize;
+	line-height: 29px;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 1px;
+	background: transparent;
+	white-space: normal;
+	outline: 0;
+	transition: .2s;
+	@if $button_borderWidth {
+		border: $button_borderWidth solid $button_borderColor;
+	} @else {
+		border: none;
+	}
+	padding: 8px 25px;
+	border-radius: $button_borderRadius;
+	min-width: max-content;
+
+	.svg-icon-rotating {
+		padding: 0;
+	}
+
+	&:active {
+		box-shadow: none;
+	}
+
+	&[disabled] {
+		opacity: .4;
+	}
+
+}
+
+.btn, button[type='submit'], input[type='submit'] {
+	&:hover, &:active, &:active:focus {
+		color: $button_colorTextHover;
+		outline: 0;
+		font-weight: 600;
+
+		@if $button_bgMainHover {
+			background: $button_bgMainHover;
+		}
+		@if $button_borderWidth {
+			border: $button_borderWidth solid  $button_borderColorHover;
+		} @else {
+			border: none;
+		}
+
+	}
+}
+
+.btn.btn-small {
+	font-size: $button_fontSize * 0.85;
+	padding: 6px 16px;
+}
+
+.btn.btn-color, button[type='submit'].btn.btn-color, input[type='submit'].btn.btn-color {
+	color: $button_colorTextLight;
+	background: $button_bgColored;
+	@if $button_borderWidth {
+		border: $button_borderWidth solid  transparent;
+	} @else {
+		border: none;
+	}
+
+	&:hover, &:active, &:active:focus {
+		color: $button_colorText;
+		background: rgba(255, 255, 255,.65);
+		@if $button_borderWidth {
+			border: $button_borderWidth solid  $button_borderColor;
+		} @else {
+			border: none;
+		}
+	}
+
+}
+
+.btn.btn-border {
+	@if $button_borderWidth {
+		border: $button_borderWidth solid $button_bgColored;
+	} @else {
+		border: none;
+	}
+	
+	&:hover, &:active, &:active:focus {
+		color: $button_colorTextLight;
+		background: $button_bgColored;
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgColored;
+		} @else {
+			border: none;
+		}
+	}
+
+}
+
+.btn.btn-white, button[type='submit'].btn.btn-white, input[type='submit'].btn.btn-white {
+	color: $colorMain;
+	background: #fff;
+	@if $button_borderWidth {
+		border: $button_borderWidth solid #fff;
+	} @else {
+		border: none;
+	}
+
+	&:hover, &:active, &:active:focus {
+		color: $colorSecondary;
+		background: #fff;
+		
+		@if $button_borderWidth {
+			border: $button_borderWidth solid #fff;
+		} @else {
+			border: none;
+		}
+	}
+
+}
+
+
+.btn.btn-light {
+	color: #fff;
+	@if $button_borderWidth {
+		border: $button_borderWidth solid $button_bgLight;
+	} @else {
+		border: none;
+	}
+	
+	&:hover, &:active, &:active:focus {
+		background: $button_bgColored;
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgColored;
+		} @else {
+			border: none;
+		}
+	}
+}
+
+.btn.active.focus, input.active.focus[type="submit"], input.active.focus[type="button"], .btn.active:focus, input.active[type="submit"]:focus, input.active[type="button"]:focus, .btn.focus, input.focus[type="submit"], input.focus[type="button"], .btn:active.focus, input[type="submit"]:active.focus, input[type="button"]:active.focus, .btn:active:focus, input[type="submit"]:active:focus, input[type="button"]:active:focus, .btn:focus, input[type="submit"]:focus, input[type="button"]:focus {
+	outline: 0;
+}

@@ -1,0 +1,328 @@
+/**
+* ----------------------------------------------------------------------------------------
+* Navigation styles.
+* ----------------------------------------------------------------------------------------
+*/
+
+.MAIN-NAVIGATION {
+	transition: .33s;
+	background-color: #fff;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	@extend %clearfix;
+	position: fixed;
+
+	.main-navigation-menu {
+		line-height: 20px;
+		text-transform: uppercase;
+
+		li {
+			list-style: none;
+		}
+
+		& > ul {
+			transition: .2s;
+			margin-bottom: 0;
+			@extend %clearfix;
+		}
+
+		& > ul > li {
+			display: inline-block;
+			position: relative;
+			margin-right: 20px;
+
+			&:first-child() {
+				padding-left: 0;
+			}
+
+			&:last-child() {
+
+				.sub-menu .sub-menu {
+					left: auto;
+					right: 100%;
+				}
+			}
+		}
+
+		& > ul > li > a {
+			display: inline-block;
+			font-size: 14px;
+			letter-spacing: 1px;
+			font-weight: 400;
+			line-height: 75px;
+			height: 75px;
+			color: $colorText;
+			vertical-align: baseline;
+
+			&:hover {
+				color: $colorMain;
+			}
+		}
+
+		.current-menu-item > a {
+			color: $colorMain;
+		}
+
+		.cart-contents {
+			padding-right: 8px;
+
+			.widget-label {
+				display: none;
+			}
+
+			.cart-contents-text {
+				position: relative;
+				top: -10px;
+				font-size: 14px;
+				font-weight: 400;
+				color: $colorMain;
+			}
+		}
+
+	}
+
+	.sub-menu {
+		transition: .2s;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: auto;
+		white-space: nowrap;
+		padding: 10px 0;
+		margin: 0;
+		text-align: left;
+		background-color: #fff;
+		z-index: 200;
+		visibility: hidden;
+		height: 0;
+		border-top: 2px solid $colorMain;
+		border-left: 1px solid $colorBgMedium;
+		border-right: 1px solid $colorBgMedium;
+		border-bottom: 1px solid $colorBgMedium;
+		transform: translateY(10px);
+		opacity: 0;
+
+		a {
+			display: inline-block;
+			width: 100%;
+			padding: 6px 32px;
+			margin: 5px 0;
+			color: $colorText;
+			font-size: 14px;
+			font-weight: 400;
+
+			&:hover, &:active {
+				color: $colorMain;
+			}
+		}
+
+		.current-menu-item > a {
+			color: $colorMain;
+		}
+
+		.sub-menu {
+			top: -1px;
+			left: 100%;
+		}
+	}
+
+	.nav-icon {
+		position: relative;
+		width: 20px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 7px;
+	}
+
+	.nav-icon + i {
+		margin-left: 0;
+	}
+
+}
+
+.admin-bar .MAIN-NAVIGATION {
+	top: 32px;
+}
+
+.MAIN-NAVIGATION .main-navigation-logo-mobile {
+	display: none;
+}
+.MAIN-NAVIGATION.main-nav-transparent .main-navigation-logo-dark {
+	display: none;
+}
+.MAIN-NAVIGATION:not(.main-nav-transparent) .main-navigation-logo-light {
+	display: none;
+}
+
+.MAIN-NAVIGATION.main-nav-transparent {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, .2), transparent);
+	background-color: rgba(0, 0, 0, 0);
+	
+	.main-navigation-menu {
+		& > ul > li > a {
+			color: #fff;
+
+			&:hover {
+				color: $colorMain;
+			}
+		}
+	}
+
+	.main-navigation-logo h1 {
+		color: #fff;
+
+		&:hover {
+			color: $colorMain;
+		}
+	}
+
+}
+
+.menu-item-has-children {
+	position: relative;
+
+	& > a > i {
+		margin-left: 7px;
+		margin-bottom: 1px;
+		color: $colorMain;
+	}
+
+	&:hover > .sub-menu {
+		visibility: visible;
+		height: auto;
+		transform: translateY(0);
+		opacity: 1;
+
+		.sub-menu {
+			transform: none;
+		}
+	}
+
+}
+
+// Logo
+
+.main-navigation-logo {
+	transition: .2s;
+
+	h1 {
+		font-weight: 700;
+    	letter-spacing: 1px;
+    	font-size: 22px;
+    	word-break: break-all;
+		color: $colorText;
+		margin: 0;
+		padding: 5px 0;
+	}
+
+	a {
+		display: table-cell;
+		vertical-align: middle;
+		height: 75px;
+	}
+
+	img {
+		transition: .2s;
+		padding: 10px 0;
+		width: auto;
+		max-height: 65px;
+	}
+}
+
+
+/**
+*  UberMenu
+*/
+
+.MAIN-NAVIGATION.main-nav-transparent {
+
+	.ubermenu.ubermenu-skin-couponseek-ubermenuskin {
+
+		.ubermenu-item-has-children {
+			& > a > i {
+				margin-left: 7px;
+				margin-bottom: 1px;
+				color: $colorMain;
+			}
+		}
+
+		& > ul > li > a.ubermenu-target {
+			color: #fff;
+			
+			&:hover {
+				color: $colorMain;
+			}
+		}	
+	}
+}
+
+.ubermenu.ubermenu-skin-couponseek-ubermenuskin {
+	float: right;
+	z-index: 1000;
+
+	.ubermenu-current-menu-item > a.ubermenu-target  {
+		color: $colorMain;
+	}
+
+
+	a.ubermenu-target,
+	.ubermenu-submenu .ubermenu-item-header > .ubermenu-target{
+		color: $colorTextDark;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 75px;
+		height: 75px;
+		padding-top: 0;
+		padding-bottom: 0;
+
+		&:hover {
+			color: $colorMain;
+		}
+
+		.ubermenu-current_page_item {
+			color: $colorMain;
+		}
+
+	}
+
+}
+
+.has-ubermenu {
+	.ubermenu, .ubermenu .ubermenu-column, .ubermenu .ubermenu-divider, .ubermenu .ubermenu-icon, .ubermenu .ubermenu-image, .ubermenu .ubermenu-item, .ubermenu .ubermenu-nav, .ubermenu .ubermenu-retractor, .ubermenu .ubermenu-row, .ubermenu .ubermenu-search, .ubermenu .ubermenu-search-input, .ubermenu .ubermenu-search-submit, .ubermenu .ubermenu-submenu, .ubermenu .ubermenu-submenu-footer, .ubermenu .ubermenu-tabs, .ubermenu .ubermenu-tabs-panels, .ubermenu .ubermenu-target, .ubermenu-responsive-toggle {
+	    letter-spacing: 0.05em;
+	    text-transform: uppercase;
+	}
+
+	.ubermenu ul.ubermenu-submenu,
+	.ubermenu-skin-couponseek-ubermenuskin .ubermenu-submenu.ubermenu-submenu-drop {
+		background-color: #fff;
+	}
+
+	.ubermenu .ubermenu-target-description {
+	    font-size: 90% !important;
+	}
+
+	.ubermenu.ubermenu-skin-couponseek-ubermenuskin.ubermenu-sub-indicators .ubermenu-has-submenu-drop>.ubermenu-target>.ubermenu-sub-indicator {
+		position: relative;
+		margin-left: 10px;
+		top: auto;
+		right: auto;
+	}
+
+	.ubermenu-skin-couponseek-ubermenuskin.ubermenu-responsive-toggle {
+		position: absolute;
+		top: 25px;
+		right: 0;
+	}
+
+
+	.ubermenu.ubermenu-skin-couponseek-ubermenuskin .ubermenu-submenu .ubermenu-highlight {
+	  color: $colorMain;
+	}
+
+	.ubermenu.ubermenu-skin-couponseek-ubermenuskin .ubermenu-item.ubermenu-item-level-0 > .ubermenu-highlight {
+	  color: $colorMain;
+	}
+}
+

@@ -1,0 +1,2852 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: CouponSeek Functionalities\n"
+"POT-Creation-Date: 2020-11-21 12:04+0200\n"
+"PO-Revision-Date: 2020-11-21 12:04+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: acf-font-picker/acf-google_font_selector-v5.php:35
+#: acf-font-picker/acf-google_font_selector.php:90
+msgid "Google Font Selector"
+msgstr ""
+
+#: acf-font-picker/acf-google_font_selector-v5.php:36
+msgid "Choice"
+msgstr ""
+
+#: acf-font-picker/acf-google_font_selector-v5.php:77
+msgid "Web Safe Fonts?"
+msgstr ""
+
+#: acf-font-picker/acf-google_font_selector-v5.php:78
+msgid "Include web safe fonts?"
+msgstr ""
+
+#: acf-font-picker/acf-google_font_selector-v5.php:85
+msgid "Enqueue Font?"
+msgstr ""
+
+#: acf-font-picker/acf-google_font_selector-v5.php:86
+msgid "Automatically load font?"
+msgstr ""
+
+#: acf-font-picker/acf-google_font_selector-v5.php:93
+msgid "Default Font"
+msgstr ""
+
+#: acf-font-picker/acf-google_font_selector-v5.php:121
+msgid "Font Family"
+msgstr ""
+
+#: acf-font-picker/acf-google_font_selector-v5.php:137
+msgid "This is a preview of the selected font"
+msgstr ""
+
+#: acf-font-picker/acf-google_font_selector.php:37
+#, php-format
+msgid ""
+"The Google Font Selector Field requires an Google API key to work. You can "
+"set your API key on the <a href=\"%s\">options page</a>. If you need help "
+"getting an API key <a href=\"%s\">click here</a>"
+msgstr ""
+
+#: acf-font-picker/acf-google_font_selector.php:56
+msgctxt "In the title tag of the page"
+msgid "Google Font Selector"
+msgstr ""
+
+#: acf-font-picker/acf-google_font_selector.php:56
+msgctxt "Menu title"
+msgid "Google Font Selector"
+msgstr ""
+
+#: acf-font-picker/acf-google_font_selector.php:97
+msgid "Google API Key"
+msgstr ""
+
+#: acf-font-picker/acf-google_font_selector.php:111
+msgid ""
+"We tried to verify your API key but it seems it is incorrect. Make sure to "
+"copy-paste it from Google exactly."
+msgstr ""
+
+#: controls/svg-icon.php:67
+msgid "Error when reading file"
+msgstr ""
+
+#: controls/svg-icon.php:134 controls/svg-icon.php:135
+msgid "Select Icon"
+msgstr ""
+
+#. translators: 1: Plugin name 2: Elementor
+#: couponseek-elementor-widgets.php:72
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: couponseek-elementor-widgets.php:73 couponseek-elementor-widgets.php:88
+#: couponseek-elementor-widgets.php:105
+msgid "CouponSeek Functionalities"
+msgstr ""
+
+#: couponseek-elementor-widgets.php:74 couponseek-elementor-widgets.php:106
+msgid "Elementor"
+msgstr ""
+
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version
+#: couponseek-elementor-widgets.php:87 couponseek-elementor-widgets.php:104
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: couponseek-elementor-widgets.php:89
+msgid "PHP"
+msgstr ""
+
+#: couponseek-elementor-widgets.php:152
+#: inc/mailchimp-integration/mailchimp-integration-init.php:28
+msgid "You have not entered an email address."
+msgstr ""
+
+#: couponseek-elementor-widgets.php:153
+#: inc/mailchimp-integration/mailchimp-integration-init.php:29
+msgid "You have entered an invalid email address."
+msgstr ""
+
+#: couponseek-elementor-widgets.php:154
+#: inc/mailchimp-integration/mailchimp-integration-init.php:30
+msgid "Adding your email address..."
+msgstr ""
+
+#: couponseek-elementor-widgets.php:187
+msgid "CouponSeek"
+msgstr ""
+
+#: couponseek-general-settings.php:29 inc/acf-fields/acf-fields.php:170
+msgid "Theme General Settings"
+msgstr ""
+
+#: couponseek-general-settings.php:30
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:6 inc/post-types.php:13 inc/post-types.php:14
+msgid "Page Header"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:10 inc/acf-fields/acf-fields.php:875
+msgid "Full Width"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:13 inc/acf-fields/acf-fields.php:878
+msgid "Remove the spacing added on the left and right of the page content."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:29
+msgid "Archive Page"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:43 inc/acf-fields/acf-fields.php:62
+#: inc/acf-fields/acf-fields.php:81 inc/acf-fields/acf-fields.php:100
+#: inc/acf-fields/acf-fields.php:119 inc/acf-fields/acf-fields.php:594
+#: inc/acf-fields/acf-fields.php:636 inc/acf-fields/acf-fields.php:1043
+#: widgets/class-elementor-all-products.php:131
+#: widgets/class-elementor-blockquote.php:42
+#: widgets/class-elementor-blog.php:69 widgets/class-elementor-blog.php:95
+#: widgets/class-elementor-product-search.php:92
+#: widgets/class-elementor-product-search.php:116
+#: widgets/class-elementor-product-search.php:140
+#: widgets/class-elementor-product-search.php:164
+#: widgets/class-elementor-vendors-selected.php:74
+#: widgets/class-elementor-vendors-selected.php:86
+#: widgets/class-elementor-vendors.php:58
+#: widgets/class-elementor-vendors.php:70
+msgid "Show"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:44 inc/acf-fields/acf-fields.php:63
+#: inc/acf-fields/acf-fields.php:82 inc/acf-fields/acf-fields.php:101
+#: inc/acf-fields/acf-fields.php:120 inc/acf-fields/acf-fields.php:595
+#: inc/acf-fields/acf-fields.php:1044 inc/acf-fields/acf-fields.php:1265
+#: inc/acf-fields/acf-fields.php:1284
+#: widgets/class-elementor-all-products.php:132
+#: widgets/class-elementor-blockquote.php:43
+#: widgets/class-elementor-blog.php:70 widgets/class-elementor-blog.php:96
+#: widgets/class-elementor-product-search.php:93
+#: widgets/class-elementor-product-search.php:117
+#: widgets/class-elementor-product-search.php:141
+#: widgets/class-elementor-product-search.php:165
+#: widgets/class-elementor-vendors-selected.php:75
+#: widgets/class-elementor-vendors-selected.php:87
+#: widgets/class-elementor-vendors.php:59
+#: widgets/class-elementor-vendors.php:71
+msgid "Hide"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:48
+msgid "404 Page"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:67
+msgid "Search Page"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:86
+msgid "[WooCommerce] Single Product Page"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:105
+msgid "[WooCommerce] Shop Page"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:124
+msgid "Show in Pages"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:174
+msgid "Google API Key*"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:201
+msgid "Restricted Google Maps API Keys"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:220
+msgid ""
+"If you want to enable restrictions for your API key, you will need 2 keys. "
+"One with HTTP restriction for the location select field for each deal and "
+"one with IP restrictions that will deal with the server-side of saving the "
+"deal locations in the city/countries dropdown.\n"
+"\n"
+"<a href=\"https://cloud.google.com/blog/products/maps-platform/google-maps-"
+"platform-best-practices-restricting-api-keys\">Read More</a>"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:228
+msgid "Is the Google API Key Restricted?"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:247
+msgid "Google API Key Web (HTTP Restricted)"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:274
+msgid "Google API Key Web (IP Restricted)"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:301
+msgid "Mailchimp API Key"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:320
+msgid "Mailchimp List ID"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:339
+msgid "Logo Name"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:342
+msgid ""
+"Write your website logo name. If no logo image is presented, the name will "
+"be used instead."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:358
+msgid "Logo Image (Light)"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:361
+msgid ""
+"Upload the logo image that will be used for the transparent navigation bar."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:382
+msgid "Logo Image (Dark)"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:385
+msgid "Upload the logo image."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:406
+msgid "Logo Image (Mobile)"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:409
+msgid ""
+"Upload the logo image on mobile. It will fallback to the dark and then to "
+"the light logo."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:430
+msgid "Footer Text Type"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:433
+msgid "Choose the color of the footer text."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:442
+msgid "Light Text"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:443
+msgid "Dark Text"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:454
+msgid "Footer Background Image"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:478
+msgid "Footer Color"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:481
+msgid ""
+"Used as a filter over the image. If there isn't any image, it will be used "
+"as a background color."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:493
+msgid "Footer Color Opacity"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:496
+msgid "0 for a fully transparent Footer Color and 100 for a solid color."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:513
+msgid "Footer Background Repeat"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:516
+msgid ""
+"Repeat the background image. For example enable the option to repeat an "
+"image in a pattern."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:534 inc/acf-fields/acf-fields.php:1348
+#: inc/acf-fields/acf-fields.php:1367
+#: widget-extensions/elementor-column-extension.php:16
+#: widget-extensions/elementor-column-extension.php:124
+#: widget-extensions/elementor-section-extension.php:64
+#: widget-extensions/elementor-section-extension.php:168
+#: widget-extensions/elementor-section-extension.php:266
+#: widgets/class-elementor-multi-heading.php:115
+#: widgets/class-elementor-product-category-card.php:57
+#: widgets/class-elementor-product-category-card.php:383
+#: widgets/class-elementor-product-category-grid.php:93
+#: widgets/class-elementor-product-category-grid.php:105
+#: widgets/class-elementor-product-category-grid.php:117
+#: widgets/class-elementor-product-category-grid.php:451
+#: widgets/class-elementor-product-category-list.php:94
+#: widgets/class-elementor-product-category-list.php:106
+#: widgets/class-elementor-product-category-list.php:118
+#: widgets/class-elementor-product-category-list.php:404
+#: widgets/class-elementor-product-search.php:197
+#: widgets/class-elementor-product-search.php:298
+#: widgets/class-elementor-product-slider.php:57
+#: widgets/class-elementor-product-slider.php:96
+#: widgets/class-elementor-product-slider.php:110
+#: widgets/class-elementor-product-slider.php:134
+#: widgets/class-elementor-vendors.php:46
+msgid "Yes"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:535
+#: widget-extensions/elementor-column-extension.php:17
+#: widget-extensions/elementor-column-extension.php:125
+#: widget-extensions/elementor-section-extension.php:65
+#: widget-extensions/elementor-section-extension.php:169
+#: widget-extensions/elementor-section-extension.php:267
+#: widgets/class-elementor-multi-heading.php:116
+#: widgets/class-elementor-product-category-card.php:58
+#: widgets/class-elementor-product-category-card.php:384
+#: widgets/class-elementor-product-category-grid.php:94
+#: widgets/class-elementor-product-category-grid.php:106
+#: widgets/class-elementor-product-category-grid.php:118
+#: widgets/class-elementor-product-category-grid.php:452
+#: widgets/class-elementor-product-category-list.php:95
+#: widgets/class-elementor-product-category-list.php:107
+#: widgets/class-elementor-product-category-list.php:119
+#: widgets/class-elementor-product-category-list.php:405
+#: widgets/class-elementor-product-search.php:198
+#: widgets/class-elementor-product-search.php:299
+#: widgets/class-elementor-product-slider.php:58
+#: widgets/class-elementor-product-slider.php:97
+#: widgets/class-elementor-product-slider.php:111
+#: widgets/class-elementor-product-slider.php:135
+#: widgets/class-elementor-vendors.php:47
+msgid "No"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:539
+msgid "Footer Text"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:542
+msgid "Write your website footer text."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:578
+msgid "Template Blog"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:582
+msgid "Search Header"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:606 inc/acf-fields/acf-fields.php:617
+#: inc/acf-fields/acf-fields.php:894 inc/acf-fields/acf-fields.php:905
+msgid "Hide Title"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:609 inc/acf-fields/acf-fields.php:897
+msgid "Hide the Page Title"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:625
+msgid "Show Search Field"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:628
+msgid "Show the Search Field in the header."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:665
+msgid "Template Contact"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:669
+msgid "Contact Form 7 Shortcode"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:688 inc/acf-fields/acf-fields.php:1084
+#: inc/helpers.php:262 inc/hooks.php:436
+msgid "Location"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:706 inc/acf-fields/acf-fields.php:1055
+msgid "Map Zoom"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:709 inc/acf-fields/acf-fields.php:1058
+msgid "Enter map zoom level from 1 to 20."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:727
+#: widgets/class-elementor-google-maps.php:134
+msgid "Marker"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:730
+msgid "Upload custom marker image."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:772
+msgid "Product - External"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:776
+msgid "Discount Code"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:816
+#: widgets/class-elementor-product-category-card.php:44
+msgid "Product Category"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:820
+#: widgets/class-elementor-product-category-grid.php:359
+#: widgets/class-elementor-product-category-list.php:337
+#: widgets/class-elementor-product-search.php:102
+msgid "Category Icon"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:823
+msgid "Add a Category Icon."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:835
+msgid "Icon Background Color"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:871
+msgid "Page"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:886 inc/acf-fields/acf-fields.php:924
+msgid "Enable"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:913
+msgid "Transparent Navigation"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:916
+msgid "Transparent menu when scrolled to the top."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:958
+#: widgets/class-elementor-selected-products.php:50
+msgid "Product"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:962
+msgid "Ribbon"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:965
+msgid "Choose what to be written on the ribbon of the product."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:974 inc/helpers.php:146
+#: widgets/class-elementor-multi-heading.php:174
+#: widgets/class-elementor-product-search.php:220
+#: widgets/class-elementor-product-slider.php:83
+msgid "None"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:975
+msgid "Show Discount"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:976
+msgid "Show Text"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:987
+msgid "Ribbon Text"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1014
+msgid "Expiring Date"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1031
+msgid "Show Location"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1087
+msgid ""
+"Receiving map error? Google have changed their Google Maps policies and now "
+"an API Key has to be present for Google Maps to work. Please go to "
+"Appearance > Theme Settings > General and fill the \"Google API Key\" field."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1130
+msgid "Theme Layout Settings"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1134
+msgid "Main Color"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1137
+msgid "Default: #FF52E5"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1149
+#: widgets/class-elementor-icon-box-extended.php:247
+#: widgets/class-elementor-icon-box-extended.php:286
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1152
+msgid "Default: #FFC25D"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1164
+msgid "Accent Color"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1167
+msgid "Default: #62DCED"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1179
+msgid "Element Titles Font"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1196
+msgid "Body Font"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1213
+msgid "Navigation Menu Font"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1250
+msgid "Theme WooCommerce Settings"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1254
+msgid "Hide Navigation Menu Profile Item"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1257
+msgid "Hides the Profile/Login/Register item from the navigation menu."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1273
+msgid "Hide Navigation Menu Cart"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1276
+msgid "Hides the Cart item from the navigation menu."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1292
+msgid "Number of Products to Display"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1295
+msgid "Select 0 for unlimited."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1333
+msgid "Theme Deals Settings"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1337
+msgid "Show External Products Only As Pop Up"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1340
+msgid ""
+"External products show only popup and redirect when clicked. Do not show "
+"single deal pages."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1356
+msgid "Make Expired Products Draft"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1359
+msgid ""
+"Every 24 hours a check will be made and all products with expired (not "
+"empty) date will be made draft."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1375
+msgid "Deal Location Marker"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1378
+msgid "The image that will be used as a marker for products location."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1399
+msgid "Center Deal Location Field - Latitude"
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1402 inc/acf-fields/acf-fields.php:1421
+msgid "For example. Melbourne is Lat: -37.77, Lng: 144.96."
+msgstr ""
+
+#: inc/acf-fields/acf-fields.php:1418
+msgid "Center Deal Location Field - Longitude"
+msgstr ""
+
+#: inc/demo-import/demo-import.php:95 inc/demo-import/demo-import.php:103
+msgid ""
+"<strong>Important!</strong> After you import this demo, you will have to "
+"manually go to <strong>Appearance > Theme Settings</strong> and press "
+"<strong>Update</strong>."
+msgstr ""
+
+#: inc/demo-import/demo-import.php:133
+msgid "Demo Import taking too long?"
+msgstr ""
+
+#: inc/demo-import/demo-import.php:138
+#, php-format
+msgid ""
+"If the demo import is freezing, your server is probably not configured "
+"properly and cannot download all the images from the demo - %1$s."
+msgstr ""
+
+#: inc/demo-import/demo-import.php:142
+msgid "read more in this article"
+msgstr ""
+
+#: inc/demo-import/demo-import.php:149
+msgid ""
+"If the server keeps freezing, you can try installing the No Images demo."
+msgstr ""
+
+#: inc/demo-import/demo-import.php:279
+#, php-format
+msgid "BEGIN %s"
+msgstr ""
+
+#: inc/demo-import/demo-import.php:284
+#, php-format
+msgid "[Line %1$s] %2$s"
+msgstr ""
+
+#: inc/helpers.php:162
+#, php-format
+msgid "No items in %s taxonomy."
+msgstr ""
+
+#: inc/helpers.php:164
+#, php-format
+msgid ""
+"There is no %s taxonomy detected. Please install the corresponding plugin."
+msgstr ""
+
+#: inc/helpers.php:193 widgets/class-elementor-vendors-selected.php:301
+#: widgets/class-elementor-vendors.php:312
+msgid "No vendors found."
+msgstr ""
+
+#: inc/helpers.php:197
+msgid "No Vendors detected. Please install the WC Vendors plugin."
+msgstr ""
+
+#: inc/hooks.php:207
+msgid "Insert your Contact Form 7 shortcode. You can create one in "
+msgstr ""
+
+#: inc/hooks.php:209
+msgid ""
+"<strong>It seems Contact Form 7 plugin is not installed!</strong> Please "
+"install and activate it to use this field."
+msgstr ""
+
+#: inc/hooks.php:550
+msgid "Search Results "
+msgstr ""
+
+#. translators: %s: search query
+#: inc/hooks.php:554
+#, php-format
+msgid "For: <span>%s</span> "
+msgstr ""
+
+#. translators: %s: product category
+#. translators: %s: product city
+#: inc/hooks.php:559 inc/hooks.php:568 inc/hooks.php:572
+#, php-format
+msgid "in <span>%s</span> "
+msgstr ""
+
+#. translators: %s: product city
+#: inc/hooks.php:564
+#, php-format
+msgid "in <span>%s</span>"
+msgstr ""
+
+#. translators: %s: product country
+#: inc/hooks.php:566
+#, php-format
+msgid ", <span>%s</span> "
+msgstr ""
+
+#. translators: %s: product vendor
+#: inc/hooks.php:576
+#, php-format
+msgid "from <span>%s</span>"
+msgstr ""
+
+#. translators: %s: page number
+#: inc/hooks.php:581
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: inc/hooks.php:599 inc/hooks.php:610 inc/hooks.php:629
+msgid "Shop Logo"
+msgstr ""
+
+#: inc/hooks.php:605 inc/hooks.php:615 inc/hooks.php:635
+msgid "Remove Image"
+msgstr ""
+
+#: inc/hooks.php:800 inc/hooks.php:815
+#: inc/widgets/product-search/class-widget-product-search.php:66
+#: inc/widgets/product-search/class-widget-product-search.php:134
+#: inc/widgets/product-search/class-widget-product-search.php:215
+#: widgets/class-elementor-product-search.php:555
+#: widgets/class-elementor-product-search.php:621
+#: widgets/class-elementor-product-search.php:702
+msgid "All"
+msgstr ""
+
+#: inc/hooks.php:816
+msgid "Please select a country"
+msgstr ""
+
+#: inc/mailchimp-integration/class-widget-mailchimp.php:10
+msgid "Subscription form with Mailchimp integration."
+msgstr ""
+
+#: inc/mailchimp-integration/class-widget-mailchimp.php:11
+msgid "[Subsolar Designs] Mailchimp Newsletter"
+msgstr ""
+
+#: inc/mailchimp-integration/class-widget-mailchimp.php:37
+#: widgets/class-elementor-mailchimp-form.php:67
+msgid "Your e-mail address"
+msgstr ""
+
+#: inc/mailchimp-integration/class-widget-mailchimp.php:67
+msgid "Newsletter"
+msgstr ""
+
+#: inc/mailchimp-integration/class-widget-mailchimp.php:68
+msgid "Make sure you don't miss anything!"
+msgstr ""
+
+#: inc/mailchimp-integration/class-widget-mailchimp.php:69
+#: widgets/class-elementor-mailchimp-form.php:52
+msgid "Subscribe"
+msgstr ""
+
+#: inc/mailchimp-integration/class-widget-mailchimp.php:77
+#: inc/widgets/image/class-widget-image.php:75
+#: inc/widgets/popular-posts/class-widget-popular-posts.php:99
+#: inc/widgets/product-categories/class-widget-product-categories.php:198
+#: inc/widgets/product-search/class-widget-product-search.php:282
+#: inc/widgets/product-vendors/class-widget-product-vendors.php:106
+#: inc/widgets/social/class-widget-social.php:72
+#: widgets/class-elementor-blog.php:360
+#: widgets/class-elementor-icon-box-extended.php:474
+#: widgets/class-elementor-multi-heading.php:125
+#: widgets/class-elementor-poster.php:781
+msgid "Title"
+msgstr ""
+
+#: inc/mailchimp-integration/class-widget-mailchimp.php:82
+#: widgets/class-elementor-mailchimp-form.php:50
+#: widgets/class-elementor-poster.php:508
+msgid "Button Text"
+msgstr ""
+
+#: inc/mailchimp-integration/class-widget-mailchimp.php:87
+msgid "Subscription Text"
+msgstr ""
+
+#: inc/mailchimp-integration/class-widget-mailchimp.php:91
+msgid "API Key"
+msgstr ""
+
+#: inc/mailchimp-integration/class-widget-mailchimp.php:96
+msgid "List ID"
+msgstr ""
+
+#: inc/mailchimp-integration/mailchimp-integration-init.php:42
+#: inc/mailchimp-integration/mailchimp-integration-init.php:87
+msgid "Mailchimp API Key or List ID are not set."
+msgstr ""
+
+#: inc/mailchimp-integration/mailchimp-integration-init.php:44
+#: inc/mailchimp-integration/mailchimp-integration-init.php:58
+#: inc/mailchimp-integration/mailchimp-integration-init.php:89
+#: inc/mailchimp-integration/mailchimp-integration-init.php:103
+msgid "Something went wrong. We couldn't sign you up."
+msgstr ""
+
+#: inc/mailchimp-integration/mailchimp-integration-init.php:138
+msgid "Oops! This email address is already subscribed!"
+msgstr ""
+
+#: inc/mailchimp-integration/mailchimp-integration-init.php:164
+msgid "Success! You are signed up."
+msgstr ""
+
+#: inc/post-types.php:15
+msgid "All Page Headers"
+msgstr ""
+
+#: inc/post-types.php:16
+msgid "Add New"
+msgstr ""
+
+#: inc/post-types.php:17
+msgid "Add New Page Header"
+msgstr ""
+
+#: inc/post-types.php:18
+msgid "Edit Page Header"
+msgstr ""
+
+#: inc/post-types.php:19
+msgid "New Page Header"
+msgstr ""
+
+#: inc/post-types.php:20
+msgid "View Page Header"
+msgstr ""
+
+#: inc/post-types.php:21
+msgid "Search Page Headers"
+msgstr ""
+
+#: inc/post-types.php:22
+msgid "No Page Headers found"
+msgstr ""
+
+#: inc/post-types.php:23
+msgid "No Page Headers found in Trash"
+msgstr ""
+
+#: inc/post-types.php:24
+msgid "Parent Page Header:"
+msgstr ""
+
+#: inc/post-types.php:25
+msgid "Page Headers"
+msgstr ""
+
+#: inc/widgets/featured-product/class-widget-featured-product.php:10
+msgid "This widget adds a featured product to your site."
+msgstr ""
+
+#: inc/widgets/featured-product/class-widget-featured-product.php:11
+msgid "[CouponSeek] Featured Product"
+msgstr ""
+
+#: inc/widgets/featured-product/class-widget-featured-product.php:71
+#: widgets/class-elementor-product-slider.php:559
+msgid "Expires In"
+msgstr ""
+
+#: inc/widgets/featured-product/class-widget-featured-product.php:108
+#: inc/widgets/featured-product/class-widget-featured-product.php:118
+#: inc/widgets/featured-product/class-widget-featured-product.php:130
+msgid "Featured Product"
+msgstr ""
+
+#: inc/widgets/image/class-widget-image.php:10
+msgid "This widget adds an image your site."
+msgstr ""
+
+#: inc/widgets/image/class-widget-image.php:11
+msgid "[CouponSeek] Image"
+msgstr ""
+
+#: inc/widgets/image/class-widget-image.php:64
+#: inc/widgets/image/class-widget-image.php:87
+#: widgets/class-elementor-poster.php:37
+#: widgets/class-elementor-product-slider.php:179
+msgid "Image"
+msgstr ""
+
+#: inc/widgets/image/class-widget-image.php:95
+msgid "Image Link"
+msgstr ""
+
+#: inc/widgets/popular-posts/class-widget-popular-posts.php:10
+msgid "Your site's most popular Posts."
+msgstr ""
+
+#: inc/widgets/popular-posts/class-widget-popular-posts.php:11
+msgid "[CouponSeek] Popular Posts"
+msgstr ""
+
+#: inc/widgets/popular-posts/class-widget-popular-posts.php:91
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/widgets/popular-posts/class-widget-popular-posts.php:103
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/widgets/product-categories/class-widget-product-categories.php:10
+msgid "This widget adds product categories to your site."
+msgstr ""
+
+#: inc/widgets/product-categories/class-widget-product-categories.php:11
+msgid "[CouponSeek] Product Categories"
+msgstr ""
+
+#: inc/widgets/product-categories/class-widget-product-categories.php:183
+#: widgets/class-elementor-product-category-grid.php:46
+#: widgets/class-elementor-product-category-list.php:46
+msgid "Categories"
+msgstr ""
+
+#: inc/widgets/product-categories/class-widget-product-categories.php:205
+msgid "Show Empty"
+msgstr ""
+
+#: inc/widgets/product-categories/class-widget-product-categories.php:211
+#: widgets/class-elementor-product-category-grid.php:91
+#: widgets/class-elementor-product-category-list.php:92
+#: widgets/class-elementor-product-search.php:195
+msgid "Show Parent Categories Only"
+msgstr ""
+
+#: inc/widgets/product-categories/class-widget-product-categories.php:217
+msgid "Show Category Icons"
+msgstr ""
+
+#: inc/widgets/product-categories/class-widget-product-categories.php:223
+msgid "Show Icons Background"
+msgstr ""
+
+#: inc/widgets/product-categories/class-widget-product-categories.php:225
+msgid ""
+"Note: Background Color is set for each icon in the Admin Dashboard > "
+"Products > Categories."
+msgstr ""
+
+#: inc/widgets/product-categories/class-widget-product-categories.php:236
+#: widgets/class-elementor-product-category-grid.php:77
+#: widgets/class-elementor-product-category-list.php:78
+msgid "Hide Categories"
+msgstr ""
+
+#: inc/widgets/product-search/class-widget-product-search.php:10
+msgid "This widget adds a product search to your site."
+msgstr ""
+
+#: inc/widgets/product-search/class-widget-product-search.php:11
+msgid "[CouponSeek] Product Search"
+msgstr ""
+
+#: inc/widgets/product-search/class-widget-product-search.php:53
+#: inc/widgets/product-search/class-widget-product-search.php:302
+#: widgets/class-elementor-product-search.php:90
+#: widgets/class-elementor-product-search.php:542
+#: widgets/class-elementor-product-search.php:760
+msgid "Category"
+msgstr ""
+
+#: inc/widgets/product-search/class-widget-product-search.php:128
+#: widgets/class-elementor-product-search.php:615
+#: widgets/class-elementor-product-search.php:774
+msgid "Countries"
+msgstr ""
+
+#: inc/widgets/product-search/class-widget-product-search.php:171
+#: widgets/class-elementor-product-search.php:658
+#: widgets/class-elementor-product-search.php:788
+msgid "Cities"
+msgstr ""
+
+#: inc/widgets/product-search/class-widget-product-search.php:208
+#: widgets/class-elementor-product-search.php:695
+#: widgets/class-elementor-product-search.php:806
+msgid "Company"
+msgstr ""
+
+#: inc/widgets/product-search/class-widget-product-search.php:246
+#: inc/widgets/product-search/class-widget-product-search.php:271
+#: widgets/class-elementor-product-search.php:731
+#: widgets/class-elementor-product-search.php:814
+msgid "Search"
+msgstr ""
+
+#: inc/widgets/product-search/class-widget-product-search.php:272
+#: widgets/class-elementor-product-search.php:73
+#: widgets/class-elementor-product-search.php:74
+msgid "I'm searching for..."
+msgstr ""
+
+#: inc/widgets/product-search/class-widget-product-search.php:288
+#: widgets/class-elementor-product-search.php:70
+msgid "Search Placeholder"
+msgstr ""
+
+#: inc/widgets/product-search/class-widget-product-search.php:300
+msgid "Hide Filters"
+msgstr ""
+
+#: inc/widgets/product-search/class-widget-product-search.php:303
+#: widgets/class-elementor-product-search.php:114
+msgid "Country"
+msgstr ""
+
+#: inc/widgets/product-search/class-widget-product-search.php:304
+#: widgets/class-elementor-product-search.php:138
+msgid "City"
+msgstr ""
+
+#: inc/widgets/product-search/class-widget-product-search.php:305
+#: widgets/class-elementor-product-search.php:162
+#: widgets/class-elementor-vendors-selected.php:47
+msgid "Vendor"
+msgstr ""
+
+#: inc/widgets/product-vendors/class-widget-product-vendors.php:10
+msgid "This widget adds product vendors to your site."
+msgstr ""
+
+#: inc/widgets/product-vendors/class-widget-product-vendors.php:11
+msgid "[CouponSeek] Product Vendors"
+msgstr ""
+
+#: inc/widgets/product-vendors/class-widget-product-vendors.php:89
+msgid "Companies"
+msgstr ""
+
+#: inc/widgets/product-vendors/class-widget-product-vendors.php:99
+msgid ""
+"<strong>Important</strong> Vendors are added from the <a href=\"https://www."
+"wcvendors.com/\" target=\"_blank\">WC Vendors plugin</a>."
+msgstr ""
+
+#: inc/widgets/product-vendors/class-widget-product-vendors.php:118
+msgid "Hide Vendors"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:6
+msgid "Add social links to your site."
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:8
+msgid "[CouponSeek] Social"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:49
+msgid "Follow Us"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:53
+msgid "500px URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:54
+msgid "Behance URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:55
+msgid "Dribbble URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:56
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:57
+msgid "Flickr URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:58
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:59
+msgid "LinkedIn URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:60
+msgid "Medium URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:61
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:62
+msgid "Tumblr URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:63
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:64
+msgid "Vimeo URL"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:65
+msgid "Youtube URL"
+msgstr ""
+
+#: widget-extensions/elementor-button-extension.php:27
+#: widgets/class-elementor-all-products.php:84
+#: widgets/class-elementor-button-group.php:65
+#: widgets/class-elementor-button-group.php:428
+#: widgets/class-elementor-icon-box-extended.php:88
+#: widgets/class-elementor-multi-heading.php:227
+msgid "Default"
+msgstr ""
+
+#: widget-extensions/elementor-button-extension.php:28
+#: widgets/class-elementor-button-group.php:66
+msgid "Colored"
+msgstr ""
+
+#: widget-extensions/elementor-button-extension.php:29
+#: widgets/class-elementor-button-group.php:67
+msgid "Info"
+msgstr ""
+
+#: widget-extensions/elementor-button-extension.php:30
+#: widgets/class-elementor-button-group.php:68
+msgid "Success"
+msgstr ""
+
+#: widget-extensions/elementor-button-extension.php:31
+#: widgets/class-elementor-button-group.php:69
+msgid "Warning"
+msgstr ""
+
+#: widget-extensions/elementor-button-extension.php:32
+#: widgets/class-elementor-button-group.php:70
+msgid "Danger"
+msgstr ""
+
+#: widget-extensions/elementor-column-extension.php:14
+#: widget-extensions/elementor-column-extension.php:122
+#: widget-extensions/elementor-section-extension.php:62
+#: widget-extensions/elementor-section-extension.php:264
+msgid "Custom Position and Size"
+msgstr ""
+
+#: widget-extensions/elementor-column-extension.php:30
+#: widget-extensions/elementor-column-extension.php:138
+#: widget-extensions/elementor-section-extension.php:78
+#: widget-extensions/elementor-section-extension.php:280
+msgid "Custom Size"
+msgstr ""
+
+#: widget-extensions/elementor-column-extension.php:56
+#: widget-extensions/elementor-column-extension.php:164
+#: widget-extensions/elementor-section-extension.php:104
+#: widget-extensions/elementor-section-extension.php:306
+msgid "Custom Position Horizontal"
+msgstr ""
+
+#: widget-extensions/elementor-column-extension.php:87
+#: widget-extensions/elementor-column-extension.php:195
+#: widget-extensions/elementor-section-extension.php:135
+#: widget-extensions/elementor-section-extension.php:337
+msgid "Custom Position Vertical"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:166
+msgid "Enable Parallax"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:182
+msgid "Parallax Position"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:186
+msgid "Top Left"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:187
+msgid "Top Right"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:188
+msgid "Top Center"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:189
+msgid "Left Center"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:190
+msgid "Center Center"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:191
+msgid "Right Center"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:192
+msgid "Bottom Left"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:193
+msgid "Bottom Center"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:194
+msgid "Bottom Right"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:206
+msgid "Parallax Repeat"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:210
+msgid "No-repeat"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:211
+msgid "Repeat"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:212
+msgid "Repeat-x"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:213
+msgid "Repeat-y"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:225
+msgid "Parallax Size"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:229
+#: widgets/class-elementor-poster.php:49
+msgid "Cover"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:230
+msgid "Auto"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:231
+msgid "Contain"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:243
+msgid "Parallax Speed"
+msgstr ""
+
+#: widget-extensions/elementor-section-extension.php:244
+msgid "Scrolling speed from -1 to 2."
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:20
+msgid "All Products"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:39
+#: widgets/class-elementor-blog.php:35
+#: widgets/class-elementor-selected-products.php:39
+msgid "Query"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:47
+msgid "Product Categories"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:48
+msgid "Leave empty to display products from all categories."
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:60
+#: widgets/class-elementor-blog.php:118
+#: widgets/class-elementor-product-category-grid.php:127
+#: widgets/class-elementor-selected-products.php:74
+#: widgets/class-elementor-vendors-selected.php:96
+#: widgets/class-elementor-vendors.php:80
+msgid "Columns"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:71
+msgid "Products Count"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:80
+msgid "Order By"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:85
+msgid "Popular"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:86
+msgid "Rating"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:87
+msgid "Newest"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:88
+msgid "Expiring Soon"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:89
+msgid "ID"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:90
+msgid "Menu Order"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:91
+msgid "Random"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:99
+msgid "Order"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:103
+msgid "Ascending"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:104
+msgid "Descending"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:112
+msgid "Products Visibility"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:113
+msgid "Display products based on the selected visibility."
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:117
+msgid "Visible"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:118
+msgid "Shop Only"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:119
+msgid "Search Only"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:120
+msgid "Hidden"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:121
+msgid "Featured"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:129
+msgid "Show Expired"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:143
+#: widgets/class-elementor-blog.php:140
+#: widgets/class-elementor-button-group.php:216
+#: widgets/class-elementor-google-maps.php:147
+#: widgets/class-elementor-product-category-card.php:273
+#: widgets/class-elementor-selected-products.php:87
+msgid "Style"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:152
+#: widgets/class-elementor-selected-products.php:96
+#: widgets/class-elementor-vendors-selected.php:118
+#: widgets/class-elementor-vendors.php:130
+msgid "Thumbnail Size"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:161
+#: widgets/class-elementor-selected-products.php:105
+msgid "Card Title"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:169
+#: widgets/class-elementor-selected-products.php:113
+msgid "Card Title Color"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:182
+#: widgets/class-elementor-selected-products.php:126
+msgid "Card Price"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:190
+#: widgets/class-elementor-selected-products.php:134
+msgid "Card Price Color"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:203
+#: widgets/class-elementor-selected-products.php:147
+msgid "Card Meta Title"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:211
+#: widgets/class-elementor-selected-products.php:155
+msgid "Card Meta Title Color"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:224
+#: widgets/class-elementor-selected-products.php:168
+msgid "Expiration Time"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:232
+#: widgets/class-elementor-selected-products.php:176
+msgid "Expiration Time Color"
+msgstr ""
+
+#: widgets/class-elementor-all-products.php:245
+#: widgets/class-elementor-selected-products.php:189
+msgid "Card Shadow"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:17
+#: widgets/class-elementor-blockquote.php:32
+msgid "Blockquote"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:40
+#: widgets/class-elementor-blockquote.php:217
+msgid "Quote"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:52
+msgid "Quote Style"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:68
+#: widgets/class-elementor-blockquote.php:280
+#: widgets/class-elementor-blog.php:279
+#: widgets/class-elementor-button-group.php:54
+#: widgets/class-elementor-icon-box-extended.php:422
+#: widgets/class-elementor-multi-heading.php:155
+#: widgets/class-elementor-poster.php:453
+#: widgets/class-elementor-product-category-card.php:36
+#: widgets/class-elementor-product-category-grid.php:36
+#: widgets/class-elementor-product-category-list.php:36
+#: widgets/class-elementor-product-search.php:35
+#: widgets/class-elementor-product-search.php:450
+#: widgets/class-elementor-product-slider.php:35
+#: widgets/class-elementor-product-slider.php:250
+#: widgets/class-elementor-vendors-selected.php:36
+#: widgets/class-elementor-vendors.php:36
+msgid "Content"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:70
+#: widgets/class-elementor-poster.php:475
+msgid ""
+"Click edit button to change this text. Lorem ipsum dolor sit amet "
+"consectetur adipiscing elit dolor"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:71
+#: widgets/class-elementor-icon-box-extended.php:141
+#: widgets/class-elementor-poster.php:476
+msgid "Enter your description"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:81
+#: widgets/class-elementor-blockquote.php:83
+#: widgets/class-elementor-blockquote.php:325
+msgid "Author"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:90
+#: widgets/class-elementor-blockquote.php:371
+msgid "Author Meta"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:98
+msgid "Author Meta Link"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:100
+#: widgets/class-elementor-button-group.php:97
+#: widgets/class-elementor-icon-box-extended.php:156
+#: widgets/class-elementor-multi-heading.php:212
+#: widgets/class-elementor-poster.php:520
+msgid "https://your-link.com"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:109
+#: widgets/class-elementor-poster.php:673
+msgid "Box Style"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:117
+#: widgets/class-elementor-blog.php:286 widgets/class-elementor-poster.php:681
+msgid "Text Alignment"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:122
+#: widgets/class-elementor-blog.php:48 widgets/class-elementor-blog.php:291
+#: widgets/class-elementor-button-group.php:111
+#: widgets/class-elementor-button-group.php:401
+#: widgets/class-elementor-icon-box-extended.php:169
+#: widgets/class-elementor-icon-box-extended.php:434
+#: widgets/class-elementor-multi-heading.php:264
+#: widgets/class-elementor-poster.php:64 widgets/class-elementor-poster.php:686
+#: widgets/class-elementor-product-category-grid.php:58
+#: widgets/class-elementor-product-category-list.php:59
+#: widgets/class-elementor-product-search.php:48
+#: widgets/class-elementor-product-search.php:277
+#: widgets/class-elementor-product-slider.php:158
+#: widgets/class-elementor-vendors-selected.php:218
+#: widgets/class-elementor-vendors.php:229
+msgid "Left"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:126
+#: widgets/class-elementor-blog.php:295
+#: widgets/class-elementor-button-group.php:115
+#: widgets/class-elementor-button-group.php:405
+#: widgets/class-elementor-icon-box-extended.php:438
+#: widgets/class-elementor-multi-heading.php:268
+#: widgets/class-elementor-poster.php:690
+#: widgets/class-elementor-product-category-grid.php:62
+#: widgets/class-elementor-product-category-list.php:63
+#: widgets/class-elementor-product-search.php:52
+#: widgets/class-elementor-vendors-selected.php:222
+#: widgets/class-elementor-vendors.php:233
+msgid "Center"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:130
+#: widgets/class-elementor-blog.php:56 widgets/class-elementor-blog.php:299
+#: widgets/class-elementor-button-group.php:119
+#: widgets/class-elementor-button-group.php:409
+#: widgets/class-elementor-icon-box-extended.php:177
+#: widgets/class-elementor-icon-box-extended.php:442
+#: widgets/class-elementor-multi-heading.php:272
+#: widgets/class-elementor-poster.php:72 widgets/class-elementor-poster.php:694
+#: widgets/class-elementor-product-category-grid.php:66
+#: widgets/class-elementor-product-category-list.php:67
+#: widgets/class-elementor-product-search.php:56
+#: widgets/class-elementor-product-search.php:285
+#: widgets/class-elementor-product-slider.php:159
+#: widgets/class-elementor-vendors-selected.php:226
+#: widgets/class-elementor-vendors.php:237
+msgid "Right"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:141
+#: widgets/class-elementor-blog.php:310
+#: widgets/class-elementor-button-group.php:343
+#: widgets/class-elementor-button-group.php:608
+#: widgets/class-elementor-icon-box-extended.php:355
+#: widgets/class-elementor-poster.php:705
+#: widgets/class-elementor-product-category-card.php:489
+#: widgets/class-elementor-product-category-grid.php:151
+#: widgets/class-elementor-product-category-grid.php:204
+#: widgets/class-elementor-product-category-list.php:141
+#: widgets/class-elementor-product-category-list.php:194
+#: widgets/class-elementor-product-slider.php:321
+msgid "Padding"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:155
+#: widgets/class-elementor-poster.php:719
+msgid "Content Border"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:171
+#: widgets/class-elementor-button-group.php:323
+#: widgets/class-elementor-button-group.php:588
+#: widgets/class-elementor-icon-box-extended.php:405
+#: widgets/class-elementor-poster.php:735
+#: widgets/class-elementor-poster.php:1231
+#: widgets/class-elementor-product-category-card.php:418
+#: widgets/class-elementor-product-category-grid.php:476
+#: widgets/class-elementor-product-search.php:423
+#: widgets/class-elementor-product-slider.php:353
+#: widgets/class-elementor-product-slider.php:475
+#: widgets/class-elementor-vendors-selected.php:126
+#: widgets/class-elementor-vendors.php:138
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:185
+#: widgets/class-elementor-poster.php:748
+msgid "Border Offset"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:208
+#: widgets/class-elementor-poster.php:772
+#: widgets/class-elementor-product-slider.php:170
+msgid "Content Style"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:227
+msgid "Quote Size"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:255
+#: widgets/class-elementor-blockquote.php:301
+#: widgets/class-elementor-blockquote.php:347
+#: widgets/class-elementor-blog.php:339 widgets/class-elementor-blog.php:376
+#: widgets/class-elementor-button-group.php:424
+#: widgets/class-elementor-button-group.php:441
+#: widgets/class-elementor-icon-box-extended.php:315
+#: widgets/class-elementor-icon-box-extended.php:483
+#: widgets/class-elementor-poster.php:802
+#: widgets/class-elementor-poster.php:848
+msgid "Spacing"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:394
+#: widgets/class-elementor-blog.php:420 widgets/class-elementor-poster.php:872
+#: widgets/class-elementor-product-category-card.php:511
+msgid "Colors"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:403
+#: widgets/class-elementor-blog.php:429
+#: widgets/class-elementor-button-group.php:489
+#: widgets/class-elementor-icon-box-extended.php:227
+#: widgets/class-elementor-multi-heading.php:358
+#: widgets/class-elementor-poster.php:88 widgets/class-elementor-poster.php:138
+#: widgets/class-elementor-poster.php:214
+#: widgets/class-elementor-poster.php:257
+#: widgets/class-elementor-poster.php:306
+#: widgets/class-elementor-poster.php:423
+#: widgets/class-elementor-poster.php:881
+#: widgets/class-elementor-poster.php:1127
+#: widgets/class-elementor-product-category-card.php:78
+#: widgets/class-elementor-product-category-card.php:151
+#: widgets/class-elementor-product-category-card.php:520
+#: widgets/class-elementor-product-category-grid.php:295
+#: widgets/class-elementor-product-category-grid.php:522
+#: widgets/class-elementor-product-category-list.php:271
+#: widgets/class-elementor-product-category-list.php:465
+msgid "Normal"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:410
+#: widgets/class-elementor-blockquote.php:486
+msgid "Quote Color"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:424
+#: widgets/class-elementor-blockquote.php:500
+msgid "Content Color"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:438
+#: widgets/class-elementor-blockquote.php:514
+msgid "Author Color"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:452
+#: widgets/class-elementor-blockquote.php:528
+msgid "Author Meta Color"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:466
+#: widgets/class-elementor-blockquote.php:542
+#: widgets/class-elementor-blog.php:436 widgets/class-elementor-blog.php:493
+#: widgets/class-elementor-button-group.php:243
+#: widgets/class-elementor-button-group.php:275
+#: widgets/class-elementor-button-group.php:508
+#: widgets/class-elementor-button-group.php:540
+#: widgets/class-elementor-poster.php:888
+#: widgets/class-elementor-poster.php:954
+#: widgets/class-elementor-poster.php:1145
+#: widgets/class-elementor-poster.php:1187
+#: widgets/class-elementor-product-category-card.php:478
+#: widgets/class-elementor-product-category-grid.php:183
+#: widgets/class-elementor-product-category-grid.php:216
+#: widgets/class-elementor-product-category-list.php:173
+#: widgets/class-elementor-product-category-list.php:229
+#: widgets/class-elementor-product-slider.php:444
+msgid "Background Color"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:479
+#: widgets/class-elementor-blog.php:486
+#: widgets/class-elementor-button-group.php:257
+#: widgets/class-elementor-button-group.php:522
+#: widgets/class-elementor-icon-box-extended.php:266
+#: widgets/class-elementor-poster.php:163
+#: widgets/class-elementor-poster.php:331
+#: widgets/class-elementor-poster.php:947
+#: widgets/class-elementor-poster.php:1169
+#: widgets/class-elementor-product-category-card.php:97
+#: widgets/class-elementor-product-category-card.php:189
+#: widgets/class-elementor-product-category-card.php:542
+#: widgets/class-elementor-product-category-grid.php:315
+#: widgets/class-elementor-product-category-grid.php:556
+#: widgets/class-elementor-product-category-list.php:292
+#: widgets/class-elementor-product-category-list.php:499
+msgid "Hover"
+msgstr ""
+
+#: widgets/class-elementor-blockquote.php:553
+#: widgets/class-elementor-blog.php:540 widgets/class-elementor-poster.php:178
+#: widgets/class-elementor-poster.php:387
+#: widgets/class-elementor-poster.php:1010
+#: widgets/class-elementor-product-category-card.php:112
+#: widgets/class-elementor-product-category-card.php:245
+#: widgets/class-elementor-product-category-card.php:561
+#: widgets/class-elementor-product-category-grid.php:333
+#: widgets/class-elementor-product-category-grid.php:588
+#: widgets/class-elementor-product-category-list.php:311
+#: widgets/class-elementor-product-category-list.php:531
+msgid "Transition Duration"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:16
+msgid "Blog"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:43
+#: widgets/class-elementor-button-group.php:374
+#: widgets/class-elementor-poster.php:59
+msgid "Layout"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:52 widgets/class-elementor-poster.php:68
+msgid "Above"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:67
+msgid "Post Exerpt"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:79
+msgid "Excerpt Words Number"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:93
+msgid "Display Button"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:105
+msgid "Blog Posts Categories"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:129
+msgid "Blog Posts Count"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:148
+msgid "Image Height"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:176
+msgid "Minimum Height"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:200 widgets/class-elementor-poster.php:556
+#: widgets/class-elementor-product-slider.php:186
+msgid "Image Width"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:230
+msgid "Column Spacing"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:257
+msgid "Row Spacing"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:324
+msgid "Post Date"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:368 widgets/class-elementor-poster.php:1118
+#: widgets/class-elementor-product-category-grid.php:164
+#: widgets/class-elementor-product-category-grid.php:512
+#: widgets/class-elementor-product-category-list.php:154
+#: widgets/class-elementor-product-category-list.php:455
+msgid "Typography"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:397
+msgid "Post Excerpt"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:448 widgets/class-elementor-blog.php:504
+msgid "Date Color"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:459 widgets/class-elementor-blog.php:515
+#: widgets/class-elementor-poster.php:903
+#: widgets/class-elementor-poster.php:968
+#: widgets/class-elementor-product-category-grid.php:172
+#: widgets/class-elementor-product-category-grid.php:529
+#: widgets/class-elementor-product-category-grid.php:563
+#: widgets/class-elementor-product-category-list.php:162
+#: widgets/class-elementor-product-category-list.php:472
+#: widgets/class-elementor-product-category-list.php:506
+msgid "Title Color"
+msgstr ""
+
+#: widgets/class-elementor-blog.php:470 widgets/class-elementor-blog.php:526
+msgid "Excerpt Color"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:18
+#: widgets/class-elementor-button-group.php:471
+msgid "Button Group"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:31
+#: widgets/class-elementor-poster.php:1105
+msgid "Extra Small"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:32
+#: widgets/class-elementor-button-group.php:429
+#: widgets/class-elementor-multi-heading.php:228
+#: widgets/class-elementor-poster.php:1106
+msgid "Small"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:33
+#: widgets/class-elementor-button-group.php:430
+#: widgets/class-elementor-multi-heading.php:229
+#: widgets/class-elementor-poster.php:1107
+msgid "Medium"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:34
+#: widgets/class-elementor-multi-heading.php:230
+#: widgets/class-elementor-poster.php:1108
+msgid "Large"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:35
+#: widgets/class-elementor-poster.php:1109
+msgid "Extra Large"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:43
+#: widgets/class-elementor-button-group.php:360
+msgid "Buttons"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:61
+msgid "Type"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:79
+#: widgets/class-elementor-multi-heading.php:147
+msgid "Text"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:84
+#: widgets/class-elementor-button-group.php:85
+msgid "Click here"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:92
+#: widgets/class-elementor-multi-heading.php:207
+#: widgets/class-elementor-poster.php:518
+msgid "Link"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:107
+#: widgets/class-elementor-button-group.php:396
+#: widgets/class-elementor-icon-box-extended.php:430
+#: widgets/class-elementor-multi-heading.php:260
+msgid "Alignment"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:123
+#: widgets/class-elementor-icon-box-extended.php:446
+#: widgets/class-elementor-multi-heading.php:276
+msgid "Justified"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:135
+#: widgets/class-elementor-icon-box-extended.php:338
+#: widgets/class-elementor-multi-heading.php:223
+#: widgets/class-elementor-poster.php:1101
+msgid "Size"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:146
+#: widgets/class-elementor-icon-box-extended.php:61
+#: widgets/class-elementor-icon-box-extended.php:73
+#: widgets/class-elementor-icon-box-extended.php:214
+#: widgets/class-elementor-product-category-card.php:328
+msgid "Icon"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:156
+#: widgets/class-elementor-icon-box-extended.php:164
+msgid "Icon Position"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:160
+msgid "Before"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:161
+msgid "After"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:172
+msgid "Icon Spacing"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:192
+#: widgets/class-elementor-icon-box-extended.php:85
+#: widgets/class-elementor-multi-heading.php:308
+msgid "View"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:201
+msgid "Button ID"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:204
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:206
+msgid ""
+"Please make sure the ID is unique and not used elsewhere on the page this "
+"form is displayed. This field allows <code>A-z 0-9</code> & underscore chars "
+"without spaces."
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:231
+#: widgets/class-elementor-button-group.php:264
+#: widgets/class-elementor-button-group.php:496
+#: widgets/class-elementor-button-group.php:529
+#: widgets/class-elementor-multi-heading.php:327
+#: widgets/class-elementor-poster.php:1134
+#: widgets/class-elementor-poster.php:1176
+msgid "Text Color"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:286
+#: widgets/class-elementor-button-group.php:551
+#: widgets/class-elementor-poster.php:1156
+#: widgets/class-elementor-poster.php:1198
+msgid "Border Color"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:300
+#: widgets/class-elementor-button-group.php:565
+#: widgets/class-elementor-icon-box-extended.php:303
+#: widgets/class-elementor-poster.php:627
+#: widgets/class-elementor-poster.php:1045
+#: widgets/class-elementor-vendors-selected.php:158
+#: widgets/class-elementor-vendors.php:170
+msgid "Hover Animation"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:382
+#: widgets/class-elementor-product-slider.php:154
+msgid "Direction"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:386
+msgid "Horizontal"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:387
+msgid "Vertical"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:413
+msgid "Stretch"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:431
+msgid "Big"
+msgstr ""
+
+#: widgets/class-elementor-button-group.php:432
+msgid "Custom"
+msgstr ""
+
+#: widgets/class-elementor-google-maps.php:18
+msgid "Google Maps"
+msgstr ""
+
+#: widgets/class-elementor-google-maps.php:37
+msgid "Map"
+msgstr ""
+
+#: widgets/class-elementor-google-maps.php:44
+#: widgets/class-elementor-mailchimp-form.php:41
+msgid "Important Note"
+msgstr ""
+
+#: widgets/class-elementor-google-maps.php:46
+msgid ""
+"Make sure that you have entered your Google API Key Appearance > Theme "
+"Settings."
+msgstr ""
+
+#: widgets/class-elementor-google-maps.php:50
+msgid "London Eye, London, United Kingdom"
+msgstr ""
+
+#: widgets/class-elementor-google-maps.php:54
+msgid "Address"
+msgstr ""
+
+#: widgets/class-elementor-google-maps.php:72
+msgid "Zoom"
+msgstr ""
+
+#: widgets/class-elementor-google-maps.php:91
+#: widgets/class-elementor-product-category-card.php:281
+msgid "Height"
+msgstr ""
+
+#: widgets/class-elementor-google-maps.php:111
+msgid "Disable Scroll"
+msgstr ""
+
+#: widgets/class-elementor-google-maps.php:121
+msgid "Disable Default UI"
+msgstr ""
+
+#: widgets/class-elementor-google-maps.php:155
+msgid "JSON Style"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:22
+msgid "Icon Box Exended"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:41
+msgid "Icon Box"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:48
+msgid "Icon Type"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:51
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:52
+msgid "SVG Icon"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:89
+msgid "Stacked"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:90
+msgid "Framed"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:103
+msgid "Shape"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:106
+msgid "Circle"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:107
+msgid "Square"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:121
+#: widgets/class-elementor-poster.php:461
+msgid "Title & Description"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:126
+#: widgets/class-elementor-poster.php:463
+msgid "This is the heading"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:127
+#: widgets/class-elementor-multi-heading.php:130
+#: widgets/class-elementor-poster.php:464
+msgid "Enter your title"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:140
+msgid ""
+"Click edit button to change this text. Lorem ipsum dolor sit amet, "
+"consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, "
+"pulvinar dapibus leo."
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:151
+msgid "Link to"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:173
+#: widgets/class-elementor-icon-box-extended.php:462
+msgid "Top"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:192
+#: widgets/class-elementor-poster.php:486
+msgid "Title HTML Tag"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:234
+#: widgets/class-elementor-icon-box-extended.php:273
+msgid "Primary Color"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:375
+msgid "Rotate"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:391
+#: widgets/class-elementor-poster.php:1213
+msgid "Border Width"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:459
+msgid "Vertical Alignment"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:463
+msgid "Middle"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:464
+msgid "Bottom"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:500
+#: widgets/class-elementor-icon-box-extended.php:529
+#: widgets/class-elementor-product-search.php:257
+msgid "Color"
+msgstr ""
+
+#: widgets/class-elementor-icon-box-extended.php:520
+#: widgets/class-elementor-poster.php:473
+#: widgets/class-elementor-poster.php:826
+msgid "Description"
+msgstr ""
+
+#: widgets/class-elementor-mailchimp-form.php:18
+msgid "Mailchimp Form"
+msgstr ""
+
+#: widgets/class-elementor-mailchimp-form.php:33
+msgid "Mailchimp Options"
+msgstr ""
+
+#: widgets/class-elementor-mailchimp-form.php:43
+msgid ""
+"Make sure that you have entered your Mailchimp API Key and List ID in "
+"Appearance > Theme Settings."
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:44
+msgid "Multi Heading"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:106
+#: widgets/class-elementor-multi-heading.php:319
+msgid "Heading "
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:113
+msgid "Text Rotator"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:131
+msgid "Add Your Heading Text Here"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:170
+msgid "Rotate Effect"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:175
+msgid "Fade"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:176
+msgid "Dissolve"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:177
+msgid "Flip"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:178
+msgid "Flip Up"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:179
+msgid "Flip Cube"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:180
+msgid "Flip Cube Up"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:181
+msgid "Spin"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:193
+msgid "Rotate Speed"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:231
+msgid "XL"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:232
+msgid "XXL"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:240
+msgid "HTML Tag"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:291
+msgid "Display"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:295
+msgid "Block"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:296
+msgid "Inline Block"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:297
+msgid "Inline"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:355
+#: widgets/class-elementor-poster.php:135
+#: widgets/class-elementor-poster.php:211
+#: widgets/class-elementor-poster.php:303
+#: widgets/class-elementor-poster.php:420
+msgid "Blend Mode"
+msgstr ""
+
+#: widgets/class-elementor-multi-heading.php:382
+msgid "Heading Spacing"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:17
+msgid "Poster"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:45
+msgid "Skin"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:48
+msgid "Classic"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:244
+#: widgets/class-elementor-product-category-card.php:141
+msgid "Image Overlay"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:272
+#: widgets/class-elementor-poster.php:364
+#: widgets/class-elementor-product-category-card.php:167
+#: widgets/class-elementor-product-category-card.php:222
+msgid "Opacity"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:510
+msgid "Click Here"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:528
+msgid "Apply Link On"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:531
+msgid "Whole Box"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:532
+msgid "Button Only"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:548
+#: widgets/class-elementor-product-slider.php:458
+msgid "Image Style"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:587
+msgid "Min. Height"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:617
+#: widgets/class-elementor-poster.php:1037
+msgid "Hover Effects"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:646
+#: widgets/class-elementor-poster.php:1063
+msgid "Animation Duration"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:917
+#: widgets/class-elementor-poster.php:982
+msgid "Description Color"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:931
+#: widgets/class-elementor-poster.php:996
+msgid "Button Color"
+msgstr ""
+
+#: widgets/class-elementor-poster.php:1090
+msgid "Button"
+msgstr ""
+
+#: widgets/class-elementor-product-category-card.php:17
+msgid "Product Category Card"
+msgstr ""
+
+#: widgets/class-elementor-product-category-card.php:55
+#: widgets/class-elementor-product-category-grid.php:115
+#: widgets/class-elementor-product-category-list.php:116
+msgid "Show Number of Products"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:127
+#: widgets/class-elementor-product-category-list.php:128
+msgid "Show Empty Categories"
+msgstr ""
+
+#: widgets/class-elementor-product-category-card.php:68
+msgid "Custom Background"
+msgstr ""
+
+#: widgets/class-elementor-product-category-card.php:86
+msgid "Background"
+msgstr ""
+
+#: widgets/class-elementor-product-category-card.php:306
+msgid "Title Spacing"
+msgstr ""
+
+#: widgets/class-elementor-product-category-card.php:336
+#: widgets/class-elementor-product-category-card.php:358
+#: widgets/class-elementor-product-category-grid.php:396
+#: widgets/class-elementor-product-category-list.php:375
+#: widgets/class-elementor-product-search.php:482
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/class-elementor-product-category-card.php:380
+msgid "Show Icon Background Color"
+msgstr ""
+
+#: widgets/class-elementor-product-category-card.php:381
+#: widgets/class-elementor-product-category-grid.php:449
+#: widgets/class-elementor-product-category-list.php:402
+msgid ""
+"Background Color is set for each icon in the Admin Dashboard > Products > "
+"Categories."
+msgstr ""
+
+#: widgets/class-elementor-product-category-card.php:393
+msgid "Icon Padding"
+msgstr ""
+
+#: widgets/class-elementor-product-category-card.php:445
+msgid "Number Label"
+msgstr ""
+
+#: widgets/class-elementor-product-category-card.php:467
+msgid "Label Color"
+msgstr ""
+
+#: widgets/class-elementor-product-category-card.php:528
+#: widgets/class-elementor-product-category-card.php:549
+msgid "Category Text Color"
+msgstr ""
+
+#: widgets/class-elementor-product-category-card.php:637
+#, php-format
+msgid "%s Deal"
+msgid_plural "%s Deals"
+msgstr[0] ""
+msgstr[1] ""
+
+#: widgets/class-elementor-product-category-grid.php:17
+msgid "Product Categories Grid"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:44
+#: widgets/class-elementor-product-category-grid.php:140
+msgid "Grid Title"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:53
+#: widgets/class-elementor-product-category-list.php:54
+#: widgets/class-elementor-vendors-selected.php:213
+#: widgets/class-elementor-vendors.php:224
+msgid "Title Alignment"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:78
+#: widgets/class-elementor-product-category-list.php:79
+msgid "Selected categories will not be displayed in the categories list."
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:103
+#: widgets/class-elementor-product-category-list.php:104
+msgid "Show Categories Icons"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:196
+msgid "Categories Grid"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:228
+#: widgets/class-elementor-product-category-list.php:241
+msgid "Category Item"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:236
+msgid "Item Gap"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:261
+msgid "Item Padding"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:274
+#: widgets/class-elementor-product-category-list.php:250
+#: widgets/class-elementor-vendors-selected.php:139
+#: widgets/class-elementor-vendors.php:151
+msgid "Box Shadow"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:302
+#: widgets/class-elementor-product-category-grid.php:322
+#: widgets/class-elementor-product-category-list.php:278
+#: widgets/class-elementor-product-category-list.php:299
+msgid "Category Item Background Color"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:370
+#: widgets/class-elementor-product-category-list.php:348
+msgid "Icon Width"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:422
+msgid "Icon Gap"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:448
+#: widgets/class-elementor-product-category-list.php:401
+msgid "Show Icons Background Color"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:503
+#: widgets/class-elementor-product-category-list.php:446
+msgid "Category Title"
+msgstr ""
+
+#: widgets/class-elementor-product-category-grid.php:540
+#: widgets/class-elementor-product-category-grid.php:574
+#: widgets/class-elementor-product-category-list.php:483
+#: widgets/class-elementor-product-category-list.php:517
+msgid "Number Color"
+msgstr ""
+
+#: widgets/class-elementor-product-category-list.php:17
+msgid "Product Categories List"
+msgstr ""
+
+#: widgets/class-elementor-product-category-list.php:44
+#: widgets/class-elementor-product-category-list.php:130
+msgid "List Title"
+msgstr ""
+
+#: widgets/class-elementor-product-category-list.php:186
+msgid "Categories List"
+msgstr ""
+
+#: widgets/class-elementor-product-category-list.php:206
+msgid "Categories Gap"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:16
+msgid "Product Search"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:43
+msgid "Widget Position"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:81
+msgid "Search Options"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:126
+msgid "Country Icon"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:150
+msgid "City Icon"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:174
+msgid "Company Icon"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:186
+msgid "Display Options"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:209
+msgid "Search Input"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:217
+msgid "Border Type"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:221
+msgid "Solid"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:222
+msgid "Double"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:223
+msgid "Dotted"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:224
+msgid "Dashed"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:236
+msgid "Width"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:272
+msgid "Button Position"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:281
+msgid "Below"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:296
+msgid "Custom Width"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:308
+msgid "Search Width"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:338
+msgid "Search Spacing"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:363
+msgid "Dropdowns"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:371
+msgid "Button Width"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:399
+msgid "Border"
+msgstr ""
+
+#: widgets/class-elementor-product-search.php:459
+msgid "Font Size"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:16
+msgid "Product Slider"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:43
+msgid "Select Products"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:54
+msgid "Show Product Buy Button"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:55
+msgid "Display the Products Buy Button under the image"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:69
+msgid "Additional Options"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:76
+msgid "Navigation"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:80
+msgid "Arrows and Dots"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:81
+msgid "Arrows"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:82
+msgid "Dots"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:92
+msgid "Pause on Hover"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:106
+msgid "Autoplay"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:120
+msgid "Autoplay Speed"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:130
+msgid "Infinite Loop"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:144
+msgid "Animation Speed"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:221
+msgid "Image Bottom Offset"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:258
+msgid "Content Width"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:293
+msgid "Content Top Offset"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:372
+msgid "Product Title"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:381
+msgid "Product Title Color"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:394
+msgid "Product Price"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:402
+msgid "Product Price Color"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:415
+msgid "Product Meta Font"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:423
+msgid "Product Meta Color"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:436
+msgid "Expiration Time Font"
+msgstr ""
+
+#: widgets/class-elementor-product-slider.php:494
+msgid "Image Shadow"
+msgstr ""
+
+#: widgets/class-elementor-selected-products.php:20
+#: widgets/class-elementor-selected-products.php:61
+msgid "Selected Products"
+msgstr ""
+
+#: widgets/class-elementor-vendors-selected.php:20
+msgid "Vendors Selected"
+msgstr ""
+
+#: widgets/class-elementor-vendors-selected.php:61
+msgid "Selected Vendors"
+msgstr ""
+
+#: widgets/class-elementor-vendors-selected.php:72
+#: widgets/class-elementor-vendors.php:56
+msgid "Show Logo"
+msgstr ""
+
+#: widgets/class-elementor-vendors-selected.php:84
+#: widgets/class-elementor-vendors.php:68
+msgid "Show Title"
+msgstr ""
+
+#: widgets/class-elementor-vendors-selected.php:109
+#: widgets/class-elementor-vendors.php:121
+msgid "Logo Style"
+msgstr ""
+
+#: widgets/class-elementor-vendors-selected.php:166
+msgid "Logo Spacing"
+msgstr ""
+
+#: widgets/class-elementor-vendors-selected.php:196
+#: widgets/class-elementor-vendors.php:207
+msgid "Title Style"
+msgstr ""
+
+#: widgets/class-elementor-vendors-selected.php:205
+#: widgets/class-elementor-vendors.php:216
+msgid "Vendor Title"
+msgstr ""
+
+#: widgets/class-elementor-vendors-selected.php:240
+#: widgets/class-elementor-vendors.php:251
+msgid "Vendor Title Color"
+msgstr ""
+
+#: widgets/class-elementor-vendors-selected.php:252
+#: widgets/class-elementor-vendors.php:263
+msgid "Vendor Title Spacing"
+msgstr ""
+
+#: widgets/class-elementor-vendors.php:20
+msgid "Vendors"
+msgstr ""
+
+#: widgets/class-elementor-vendors.php:44
+msgid "Group Alphabetically"
+msgstr ""
+
+#: widgets/class-elementor-vendors.php:93
+msgid "Row Style"
+msgstr ""
+
+#: widgets/class-elementor-vendors.php:104
+msgid "Row Title Color"
+msgstr ""
+
+#: widgets/class-elementor-vendors.php:178
+msgid "Vendor Spacing"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.subsolardesigns.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds the functionalities of the CouponSeek theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Subsolar Designs"
+msgstr ""

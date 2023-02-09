@@ -1,0 +1,252 @@
+.ProductSearch {
+	border-radius: $borderRadius;
+	color: $colorTextDark;
+	letter-spacing: 0;
+	font-weight: 700;
+	text-align: center;
+
+	@extend %clearfix;
+
+	input::placeholder {
+		color: $colorTextLight;
+	}
+
+	input.search-form-input {
+		display: block;
+		position: relative;
+		border: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0;
+	}
+	
+	.search-form-input.search-input-small {
+		max-width: 22%;
+	}
+
+	.search-form-filters {
+		@extend %clearfix;
+		text-align: center;
+	}
+
+	.search-form-filters-inner {
+		display: inline-block;
+		position: relative;
+	}
+
+	.search-button {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.search-form-wrapper.button-below {
+		.search-form-input {
+			margin-bottom: 20px;
+		}
+	}
+	.search-form-wrapper.button-left {
+		.search-form-input {
+			padding-left: 120px;
+		}
+		.search-button {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			border-radius: 20px;
+		}
+	}
+	.search-form-wrapper.button-right {
+		.search-button {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			border-radius: 20px;
+		}
+	}
+}
+
+
+/**
+*  Dropdown Menu
+*/
+
+.ProductSearch {
+
+	.dropdown {
+		transition: .2s;
+		display: inline-block;
+		margin-right: 5px;
+		text-align: center;
+		width: 120px;
+		height: 120px;
+		border-radius: 5px;
+		background-color: #fff;
+		bottom: 0;
+
+		&:hover {
+			box-shadow: 0px 10px 15px -13px rgba(0, 0, 0, .35);
+    		bottom: 1px;
+		}
+
+		a, svg, .svg-placeholder {
+			vertical-align: middle;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		svg, .svg-placeholder {
+			height: 40px;
+		}
+	}
+
+	.dropdown-content {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		line-height: 1.44em;
+
+		.category-icon {
+			background: none;
+		}
+
+		svg {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 14px;
+		}
+	}
+
+	.dropdown-menu {
+		position: fixed;
+		display: block;
+		left: 10vw;
+		right: 10vw;
+		top: 50%;
+		max-height: 60vh;
+		text-align: center;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+		background: none;
+		font-size: inherit;
+		margin: 0 -20px 0 0;
+		padding: 60px;
+		height: 0;
+		overflow-x: hidden;
+		overflow-y: auto;
+		visibility: hidden;
+		opacity: 0;
+		background-color: $colorBgLight;
+		box-shadow: 7px 7px 24px 0px rgba(0, 0, 0, 0.32);
+		transform: translateY(-70%);
+
+		.svg-placeholder {
+			display: inline-block;
+		}
+
+		.category-icon {
+			display: inline-block;
+			padding: 15px;
+			line-height: 1em;
+		}
+		
+		svg {
+			display: inline-block;
+		}
+
+		span {
+			display: inline-block;
+			padding: 0 20px;
+			vertical-align: middle;
+		}
+
+		.category-icon + span {
+			padding-left: 14px;
+		}
+
+		li {
+			float: left;
+			margin: 0 20px 20px 0;
+			background-color: #fff;
+			border: 1px solid $colorBorderLight;
+			border-radius: 5px;
+		}
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 15px;
+			right: 15px;
+			background-image: url(../images/close.svg);
+			background-repeat: no-repeat;
+			background-size: 14px;
+			background-position: center;
+			height: 40px;
+			width: 40px;
+			background-color: #fff;
+			border-radius: 55px;
+			cursor: pointer;
+		}
+
+	}
+
+	.dropdown-menu-overlay {
+		display: none;
+		content: '';
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(255, 255, 255, .7);
+		z-index: 1;
+	}
+
+	.dropdown-menu > li > a {
+		display: block;
+		padding: 0;
+		font-weight: inherit;
+		color: #000;
+		min-height: 70px;
+		line-height: 70px;
+
+		&:focus, &:hover {
+			color: #fff;
+			text-decoration: none;
+			background-color: $colorSecondary;
+		}
+	}
+
+	.open > .dropdown-menu {
+		transition: .4s;
+		visibility: visible;
+		opacity: 1;
+		height: auto;
+		transform: translateY(-50%);
+	}
+
+	.dropdown-button {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		padding: 15px;
+		cursor: pointer;
+
+		&:after{
+			@extend %fa;
+			content: "\f078";
+			font-size: 11px;
+			line-height: inherit;
+			position: absolute;
+			right: 13px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+	}
+
+}

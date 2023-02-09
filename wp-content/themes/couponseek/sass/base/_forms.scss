@@ -1,0 +1,244 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Forms
+ * ----------------------------------------------------------------------------------------
+ */
+
+$formPadding: 8px 20px;
+
+textarea {
+	height: 150px;
+}
+
+label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 8px;
+	margin-left: 15px;
+	font-weight: 800;
+	font-size: 14px;
+	color: $colorText;
+}
+
+select {
+	padding: $formPadding;
+	margin: 0;
+	appearance: none;
+	background-image: url(../images/chevron-down.svg);
+	background-repeat: no-repeat;
+	background-size: 16px;
+	background-position: 94% 50%;
+	border: none;
+}
+
+%input, // to be used for  @extend %input;
+input,
+select,
+textarea {
+	transition: all ease-in-out .15s;
+	display: inline-block;
+	height: auto;
+	width: 100%;
+	padding: $formPadding;
+	background-color: #fff;
+	margin-bottom: 10px;
+	border: 1px solid $colorBorderLight;
+	border-radius: 20px;
+	font-weight: 400;
+	line-height: 1.82em;
+	box-shadow: none;
+
+	&:focus {
+		box-shadow: none;
+	}
+}
+
+input[type='button'],
+input[type='submit'] {
+	width: auto;
+}
+
+input[type='file'],
+input[type='submit'],
+input[type='checkbox'],
+input[type='radio']{
+	width: auto;
+	margin: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+	margin-top: 0;
+	margin-top: 1px \9;
+	margin-right: 8px;
+	width: auto;
+}
+
+/**
+*  Group Input
+*/
+.group-input {
+	position: relative;
+	input {
+		padding-right: 120px;
+	}
+	button, input[type="submit"], button[type="submit"] {
+		position: absolute;
+		top: 0;
+		right: 0;
+		border-radius: 20px;
+	}
+}
+
+/**
+*  Search Form
+*/
+.SearchForm {
+	.search-form-wrapper {
+		position: relative;
+	
+		.search-form-input {
+			padding-right: 110px;
+			color: $colorText;
+		}
+	}
+	.search-form-btn {
+		position: absolute;
+		top: 0;
+		right: 0;
+
+		.btn {
+			width: 100px;
+			border-radius: 20px;
+		}
+	}
+}
+
+/**
+*  Select 2
+*/
+.select2-container {
+	max-width: 100%;
+}
+.select2-dropdown {
+	border: none;
+}
+.select2-search.select2-search--inline input {
+	border-radius: 0;
+}
+.select2-container.select2-container .selection .select2-selection,
+.select2-container.select2-container--default .selection .select2-selection .select2-selection__placeholder {
+	padding: $formPadding;
+	height: auto;
+	border: 1px solid $colorBorderLight;
+	border-radius: 20px;
+}
+
+.select2-container--default .selection .select2-selection .select2-selection__rendered {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+
+.select2-container--default .selection .select2-selection .select2-selection__rendered li {
+    margin: 0;
+    padding: 0;
+}
+
+.select2-container--default .selection .select2-selection .select2-selection__rendered li.select2-selection__choice {
+    background-color: $colorSecondary;
+    margin: 3px;
+    color: #fff;
+    padding: 5px 11px;
+    border: none;
+
+    &:first-child {
+    	margin-left: 0;
+    }
+    &:last-child {
+    	margin-right: 0;
+    }
+
+    span.select2-selection__choice__remove {
+    	color: #fff;
+    	margin-right: 4px;
+    }
+}
+
+.select2-container.select2-container--default.select2-container--open.select2-container--below .selection .select2-selection {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.select2-container.select2-container--open .select2-dropdown {
+    overflow: hidden;
+    border-top: none;
+    border-radius: 20px;
+    box-shadow: 0px 10px 50px 9px rgba(0, 0, 0, 0.08), 0px 4px 5px 0px rgba(0, 0, 0, 0.07);
+}
+.select2-container.select2-container--open .select2-dropdown--below {
+    top: 10px;
+}
+.select2-container.select2-container--open .select2-dropdown--above {
+    top: -10px;
+}
+
+.select2-container.select2-container--default .selection .select2-results__option--highlighted[aria-selected],
+.select2-container.select2-container--default .selection .select2-results__option--highlighted[data-selected] {
+    background-color: $colorMain;
+}
+
+.select2-container.select2-container--default .selection .select2-search--dropdown .select2-search__field {
+	border-color: $colorBorderLight;
+}
+
+.select2-results__options .select2-results__option {
+	padding: $formPadding;
+}
+
+.select2-container.select2-container--default .selection .select2-selection .select2-selection__arrow {
+	top: 50%;
+	transform: translateY(-50%);
+	right: 15px;
+	display: inline-block;
+	color: $colorText;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.select2-container.select2-container--default .selection .select2-selection .select2-selection__arrow b {
+	border: none;
+	height: auto;
+	width: auto;
+	top: auto;
+	left: auto;
+	margin: 0;
+}
+.select2-container.select2-container--default .selection .select2-selection .select2-selection__arrow b:after {
+	content: "\f078";
+    font-size: 14px;
+    line-height: inherit;
+    position: relative;
+}
+
+.select2-container.select2-container--default .selection .select2-selection .select2-selection__rendered {
+    vertical-align: middle;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected], .select2-container--default .select2-results__option--highlighted[data-selected] {
+    background-color: $colorMain;
+}
+
+/**
+*  Contact Form 7
+*/
+
+.wpcf7 {
+	label {
+		width: 100%;
+	}
+}

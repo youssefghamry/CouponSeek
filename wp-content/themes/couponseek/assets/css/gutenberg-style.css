@@ -1,0 +1,107 @@
+ body.gutenberg-editor-page .editor-block-list__block, body.gutenberg-editor-page .editor-default-block-appender, body.gutenberg-editor-page .editor-post-title__block {
+  max-width: 870px;
+}
+
+ body.gutenberg-editor-page.editor-block-list__block[data-align="left"] .editor-block-list__block-edit {
+  margin: 1em 2em 1em 0;
+}
+ body.gutenberg-editor-page .editor-block-list__block[data-align="right"] .editor-block-list__block-edit {
+  margin: 1em 0 1em 2em;
+}
+
+/* Headings */
+.editor-post-title__block .editor-post-title__input {
+	font-size: 38px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.wp-block-heading h1 {
+	font-size: 56px;
+	margin: 0 0 0.8em;
+	color: #222;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.wp-block-heading h2 {
+	font-size: 44px;
+	margin: 0 0 0.8em;
+	color: #222;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.wp-block-heading h3 {
+	font-size: 38px;
+	margin: 0 0 0.8em;
+	color: #222;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.wp-block-heading h4 {
+	font-size: 34px;
+	margin: 0 0 0.8em;
+	color: #222;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.wp-block-heading h5 {
+	font-size: 24px;
+	margin: 0 0 0.8em;
+	color: #222;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.wp-block-heading h6 {
+	font-size: 20px;
+	margin-bottom: 1em;
+	color: #222;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+/* Blockquote */
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+	font-style: italic;
+	margin: 40px 0;
+	padding: 10px 40px;
+	border-left: 5px solid;
+}
+.edit-post-visual-editor .wp-block-quote p {
+	font-size: 17px;
+}
+.wp-block-quote cite {
+	font-style: normal;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: .3px;
+	text-transform: uppercase;
+	color: #222;
+}
+.wp-block-quote.is-large, .wp-block-quote.is-style-large {
+	margin: 40px 0;
+	padding: 10px 40px;
+	border-left: 5px solid;
+}
+.wp-block-quote.is-large, .wp-block-quote.is-style-large p {
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+.wp-block-pullquote {
+	font-style: italic;
+}
+.wp-block-pullquote cite, .wp-block-pullquote footer {
+	font-style: normal;
+	font-weight: 700;
+}
+
+/* Verse */
+.wp-block-verse pre, pre.wp-block-verse {
+	background-color: #F5F5F5;
+	padding: 20px;
+	margin-bottom: 20px;
+}

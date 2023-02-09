@@ -1,0 +1,17 @@
+/**
+* ----------------------------------------------------------------------------------------
+*   Unyson Admin Edits
+* ----------------------------------------------------------------------------------------
+*/
+
+.fw-option-type-typography-v2 .fw-option-typography-v2-option-subset, .fw-option-type-typography-v2 .fw-option-typography-v2-option-variation {
+    display: none !important;
+}
+
+.fw-backend-option-input-type-html {
+	padding-top: 4px;
+}
+
+.notice.fw-brz-dismiss {
+	display: none;
+}

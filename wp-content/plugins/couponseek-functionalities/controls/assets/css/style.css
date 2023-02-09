@@ -1,0 +1,7 @@
+/*
+* Elementor Styling
+*/
+
+.elementor-control-type-repeater, .elementor-control-type-repeater .elementor-control:not(.elementor-control-type-tab) {
+    padding: 0 20px 15px !important;
+}

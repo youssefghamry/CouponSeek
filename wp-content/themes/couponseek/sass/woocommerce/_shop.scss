@@ -1,0 +1,102 @@
+/**
+* ----------------------------------------------------------------------------------------
+*  Shop
+* ----------------------------------------------------------------------------------------
+*/
+
+.woocommerce {
+
+	.woocommerce-ordering {
+		float: left;
+		margin-bottom: 25px;
+
+		.btn {
+			margin: 0 5px 15px;
+
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+
+	nav.woocommerce-pagination {
+		margin-top: 35px;
+
+		ul {
+			border: none;
+			background-color: #fff;
+			padding: 25px 45px;
+			border-radius: 45px;
+			box-shadow: 0px 6px 16px -12px rgba(0, 0, 0, .25);
+		}
+		ul li {
+			border: none;
+		}
+		ul li a, ul li span {
+			margin: 0 10px;
+			padding: 5px 10px;
+			font-size: 19px;
+			line-height: 24px;
+			font-weight: 700;
+			color: $colorText;
+		}
+		.prev, .next {
+			font-size: 26px;
+			line-height: 19px;
+		}
+		.prev {
+			margin-left: 0;
+			padding: 5px 20px 10px 10px;
+			border-right: 1px solid $colorBorderLight;
+		}
+		.next {
+			margin-right: 0;
+			padding: 5px 10px 10px 20px;
+			border-left: 1px solid $colorBorderLight;
+		}
+		ul li span.current {
+			background: transparent;
+			font-weight: 300;
+			color: $colorTextLight;
+		}
+		ul li a:hover, ul li a:focus {
+			background: transparent;
+			color: $colorSecondary;
+		}
+	}
+	
+	.product-company-summary {
+		padding: 35px;
+		background-color: #fff;
+		box-shadow: 0px 6px 15px -11px rgba(0, 0, 0, .3);
+
+		.product-company-description {
+			font-size: 13px;
+			line-height: 25px;
+			color: $colorTextMedium;
+		}
+		.product-company-website {
+			border-bottom: 1px solid $colorMain;
+			font-size: 14px;
+			font-weight: 700;
+		}
+	}
+
+	.woocommerce-products-header .term-description {
+		padding: 30px 40px;
+		margin-bottom: 40px;
+		font-size: 14px;
+		font-weight: 500;
+		color: $colorTextMedium;
+		background-color: #fff;
+		box-shadow: 0px 7px 12px -15px rgba(0, 0, 0, .3);
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.SidebarShop {
+		float: right;
+	}
+}

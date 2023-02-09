@@ -1,0 +1,96 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Elementor
+ * ----------------------------------------------------------------------------------------
+ */
+.is-elementor-container {
+	opacity: 0;
+}
+
+.elementor-editor-active {
+	
+	.MAIN-NAVIGATION, .slicknav_menu {
+		position: static;
+	}
+
+	.is-nav-offset {
+		display: none;
+	}
+
+}
+
+/**
+*  Buttons
+*/
+.elementor-element {
+	a.elementor-button, .elementor-button {
+		@extend .btn;
+
+		&:hover, &:active, &:active:focus {
+			opacity: .9;
+		}
+	}
+	.elementor-button.elementor-size-sm, a.elementor-button.elementor-size-sm {
+		font-size: 15px;
+		padding: 12px 24px;
+	}
+	.elementor-button.elementor-size-md, a.elementor-button.elementor-size-md {
+		font-size: 16px;
+		padding: 15px 30px;
+	}
+	.elementor-button.elementor-size-lg, a.elementor-button.elementor-size-lg {
+		font-size: 17px;
+		padding: 20px 40px;
+	}
+	.elementor-button.elementor-size-xl, a.elementor-button.elementor-size-xl {
+		font-size: 18px;
+		padding: 25px 50px;
+	}
+}
+.elementor-element.elementor-button-info .elementor-button {
+	color: #fff;
+	border-color: #5bc0de;
+
+	&:hover, &:active, &:active:focus {
+		background-color: #5bc0de;
+		border-color: #5bc0de
+	}
+}
+.elementor-element.elementor-button-color .elementor-button {
+	color: $button_colorTextLight;
+	background: $button_bgColored;
+	border: none;
+
+	&:hover, &:active, &:active:focus {
+		color: $button_colorText;
+		background: rgba(255, 255, 255,.65);
+		border: none;
+	}
+}
+.elementor-element.elementor-button-success .elementor-button {
+	color: #fff;
+	border-color: #5cb85c;
+
+	&:hover, &:active, &:active:focus {
+		background-color: #5cb85c;
+		border-color: #5cb85c;
+	}
+}
+.elementor-element.elementor-button-warning .elementor-button {
+	color: #fff;
+	border-color: #f0ad4e;
+
+	&:hover, &:active, &:active:focus {
+		background-color: #f0ad4e;
+	border-color: #f0ad4e;
+	}
+}
+.elementor-element.elementor-button-danger .elementor-button {
+	color: #fff;
+	border-color: #d9534f;
+
+	&:hover, &:active, &:active:focus {
+		background-color: #d9534f;
+		border-color: #d9534f;
+	}
+}

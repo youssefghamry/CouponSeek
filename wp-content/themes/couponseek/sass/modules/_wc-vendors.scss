@@ -1,0 +1,150 @@
+/**
+*  Vendors Dashboard
+*/
+.wcv-dashboard-navigation {
+	margin-bottom: 60px;
+
+	a {
+		border-radius: 30px;
+		box-shadow: 0px 15px 26px -17px rgba(0, 0, 0, 0.11), 0px -14px 16px -15px rgba(0, 0, 0, 0.05);
+		color: $colorMain;
+		transition: .2s;
+		font-weight: 600;
+		letter-spacing: 0.05em;
+		background-color: rgba(255, 255, 255, 0.3);
+		padding: 15px 30px;
+
+		&:hover {
+			color: $colorSecondary;
+		}
+	}
+}
+
+.wc-vendors-dashboard,
+.wcvendors-pro-dashboard-wrapper {
+
+	margin-bottom: 40px;
+
+	h2 {
+		@extend legend;
+	}
+
+	.wc-vendors-dashboard-datepicker {
+		text-align: center;
+		
+		label {
+			vertical-align: middle;
+			margin-right: 10px;
+		}
+
+		input {
+			display: inline-block;
+			width: auto;
+		}
+	}
+	.wc-vendors-settings {
+		b {
+			font-size: 17px;
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+		p {
+			margin-bottom: 0;
+		}
+		> div {
+			margin-bottom: 30px;
+		}
+		.pv_shop_logo_container {
+			img {
+				margin-bottom: 20px;
+			}
+
+			.btn {
+				margin-right: 15px;
+			}
+		}
+		#wp-pv_seller_info-wrap, #wp-pv_shop_description-wrap {
+			margin-top: 15px;
+		}
+		.btn:last-child {
+			margin-left: 15px;
+		}
+		input[type="file"] {
+			padding: 0;
+		}
+		input {
+			max-width: 600px;
+		}
+	}
+}
+
+.wcv-cols-group {
+	margin-bottom: 20px;
+}
+
+.wcv-button,
+.wcv-form .control-group .control.append-button .wcv-button {
+	@extend .btn;
+}
+.wcv-form .control-group .control.append-button>span>input, .wcv-form .control-group .control.append-button>span>select, .wcv-form .control-group .control.append-button>span>textarea, .wcv-form .control-group .control.append-symbol>span>input, .wcv-form .control-group .control.append-symbol>span>select, .wcv-form .control-group .control.append-symbol>span>textarea, .wcv-form .control-group .control.prepend-button>span>input, .wcv-form .control-group .control.prepend-button>span>select, .wcv-form .control-group .control.prepend-button>span>textarea, .wcv-form .control-group .control.prepend-symbol>span>input, .wcv-form .control-group .control.prepend-symbol>span>select, .wcv-form .control-group .control.prepend-symbol>span>textarea, .wcv-form input[type=color], .wcv-form input[type=date], .wcv-form input[type=datetime-local], .wcv-form input[type=datetime], .wcv-form input[type=email], .wcv-form input[type=month], .wcv-form input[type=number], .wcv-form input[type=password], .wcv-form input[type=search], .wcv-form input[type=tel], .wcv-form input[type=text], .wcv-form input[type=time], .wcv-form input[type=url], .wcv-form input[type=week], .wcv-form select, .wcv-form textarea {
+	@extend %input;
+}
+
+.wcv-form .control-group input[type=checkbox]+label, .wcv-form .control-group input[type=radio]+label {
+    position: relative;
+	padding-left: 15px;
+	top: -5px;
+	margin-bottom: 0;
+}
+
+.wcv-form .control-group .control>input, .wcv-form .control-group .control>select, .wcv-form .control-group .control>textarea {
+	line-height: 1.82em;
+	margin: 0;
+	font-size: inherit;
+}
+
+table.wcv-table {
+	@extend .table;
+}
+
+.wcv-tabs.top>.tabs-nav li.active {
+	position: relative;
+	bottom: -2px;
+}
+
+.wcv-tabs .tabs-nav li.active a {
+	background-color: #f7f7fa;
+}
+
+.wcv-grid ol li, .wcv-grid ul li {
+    margin: .5em;
+}
+
+.quick-link-btn {
+	margin-right: 20px;
+}
+
+#wcv-search {
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+
+.wcvendors-pro-dashboard-wrapper .wcv_dashboard_table_header .wcv-product-table-search-form .wcv-form .wcv-button {
+	margin-left: 10px;
+}
+
+#update_button {
+	margin-left: 10%;
+	width: 90%;
+	padding: 8px 20px;
+	font-size: inherit;
+	line-height: 1.82em;
+}
+
+.export-orders {
+    margin-top: 39px;
+}
+
+.wcv-grid ul.inline li {
+    display: block;
+}

@@ -1,0 +1,8 @@
+/**
+* ----------------------------------------------------------------------------------------
+*   WooCommerce Admin Fixes
+* ----------------------------------------------------------------------------------------
+*/
+table.wp-list-table .column-price .price-text-meta-item-name, table.wp-list-table .column-price .price-text-meta-wrapper  {
+	display: none;
+}

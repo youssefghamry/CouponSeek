@@ -1,0 +1,256 @@
+
+---Downloaded files---
+The import files for: Main Demo were successfully downloaded!
+Initial max execution time = 0
+Files info:
+Site URL = http://localhost/wordpress/CouponSeek
+Data file = C:\xampp\htdocs\wordpress\CouponSeek\wp-content\plugins\couponseek-functionalities\inc\demo-import//demo1/main_demo.xml
+Widget file = C:\xampp\htdocs\wordpress\CouponSeek\wp-content\plugins\couponseek-functionalities\inc\demo-import//demo1/main_demo_widgets.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "47be8565955759.5b05bbaf52875" (Media)
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Main Sidebar : 
+
+[CouponSeek] Product Search - Search - Imported
+[CouponSeek] Popular Posts - Popular Posts  - Imported
+[Subsolar Designs] Twitter - Twitter - Imported
+Products list - Products - Imported
+[CouponSeek] Social - Follow Us - Imported
+
+Shop Sidebar : 
+
+[CouponSeek] Featured Product - Featured Deal - Imported
+[CouponSeek] Product Search - Search - Imported
+[CouponSeek] Product Categories - Deal Categories - Imported
+[CouponSeek] Product Vendors - Deal Companies - Imported
+
+Footer Column 1 : 
+
+[CouponSeek] Image - No Title - Imported
+Text - No Title - Imported
+[CouponSeek] Social - Follow Us - Imported
+
+Footer Column 2 : 
+
+[CouponSeek] Featured Product - Featured Product - Imported
+[Subsolar Designs] Mailchimp Newsletter - Newsletter - Imported
+
+Footer Column 3 : 
+
+[CouponSeek] Product Categories - Categories - Imported
+
+
+
+---ocdi/after_import---
+

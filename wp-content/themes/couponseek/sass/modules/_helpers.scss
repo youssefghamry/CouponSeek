@@ -1,0 +1,432 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Helper classes.
+ * ----------------------------------------------------------------------------------------
+ */
+
+ /**
+ *  Margins
+ */
+ .mt-20 {
+	margin-top: 20px;
+}
+.mt-40 {
+	margin-top: 40px;
+}
+.mt-60 {
+	margin-top: 60px;
+}
+.mt-80 {
+	margin-top: 80px;
+}
+.mt-100 {
+	margin-top: 100px;
+}
+.mt-120 {
+	margin-top: 120px;
+}
+.mt-160 {
+	margin-top: 160px;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+.mb-40 {
+	margin-bottom: 40px;
+}
+.mb-60 {
+	margin-bottom: 60px;
+}
+.mb-80 {
+	margin-bottom: 80px;
+}
+.mb-100 {
+	margin-bottom: 100px;
+}
+.mb-160 {
+	margin-bottom: 160px;
+}
+.mb-200 {
+	margin-bottom: 200px;
+}
+
+/**
+*  Oveflow
+*/
+
+.ov-a {
+	overflow: auto;
+}
+.ov-h {
+	overflow: hidden;
+}
+
+/**
+*  Semi Transparent Text Font
+*/
+
+.font-transparent {
+	color: rgba(255, 255, 255, .73);
+}
+
+
+/**
+*  Effects
+*/
+
+.anim-fadeleft {
+	opacity: 0;
+	transform: translateX(-70px);
+}
+.anim-faderight {
+	opacity: 0;
+	transform: translateX(70px);
+}
+.anim-fadeleft.anim-activated, .anim-faderight.anim-activated {
+	opacity: 1;
+	transition: 1s;
+	transform: translateX(0);
+}
+.anim-fadeup {
+	opacity: 0;
+	transform: translateY(100px);
+}
+.anim-fadeup.anim-activated {
+	opacity: 1;
+	transition: 1s;
+	transform: translateY(0);
+}
+.anim-fadeup-slow {
+	opacity: 0;
+	transform: translateY(50px);
+}
+.anim-fadeup-slow.anim-activated {
+	opacity: 1;
+	transition: 1.2s;
+	transform: translateY(0);
+}
+.anim-zoom-slow.anim-activated {
+	transition: 25s !important;
+	transform: rotate(5deg) scale(1.3) !important;
+}
+
+/**
+*  Animations
+*/
+
+.scroll-arrow {
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	font-size: 24px;
+	margin-left: -12px;
+	color: $colorText;
+}
+
+.animation-updown {
+	animation: upDown 1.5s linear 0s infinite ;
+}
+
+@keyframes upDown{
+	0% {
+		transform: translateY(-4px);
+	}
+	50% {
+		transform: translateY(4px);
+	}
+	100% {
+		transform: translateY(-4px);
+	}
+}
+
+/**
+*  Embeded Media
+*/
+.media-embedded {
+	position: relative;
+	padding-bottom: 56.25%;
+	margin-bottom: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.media-embedded iframe,
+.media-embedded object,
+.media-embedded embed, {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/**
+*  Highlight
+*/
+
+.highlight {
+    display: inline-block;
+    background-color: $colorMain;
+    padding: .1em;
+    color: #fff;
+}
+
+/**
+*  Light Text
+*/
+
+.text-light {
+	color: #fff;
+}
+
+/**
+*  Dark Text
+*/
+
+.text-dark {
+	color: $colorTextDark;
+}
+
+/**
+*  Section Light Text
+*/
+
+.section-light {
+	color: #fff;
+
+	.scroll-arrow, .progress-bar {
+		color: #fff;
+	}
+
+	.widget a {
+		color: #fff;
+	}
+	
+	h1, h2, h3, h4, h5, h6, caption {
+		color: #fff;
+	}
+
+	.special-subtitle {
+		color: #fff;
+	}
+
+	.btn-normal {
+		border: $button_borderWidth solid #fff;
+		color: #fff;
+
+		svg {
+			fill: #fff;
+		}
+
+		&:hover, &:active, &:active:focus {
+			border: $button_borderWidth solid  $button_borderColorHover;
+		}
+	}
+
+	.btn.btn-color, button[type='submit'].btn.btn-color, input[type='submit'].btn.btn-color {
+
+		&:hover, &:active, &:active:focus {
+			color: #fff;
+			& > i {
+				color: 	#fff;
+			}
+
+			svg {
+				fill: #fff;
+			}
+		}
+
+	}
+
+	blockquote {
+		color: #fff;
+		background-color: transparent;
+
+		footer {
+			&, cite {
+				color: $colorTextLight;
+			}
+		}
+	}
+
+	.ps-container .ps-scrollbar-y {
+		border: 3px solid #fff;
+	}
+
+	.ps-scrollbar-y-rail {
+		border-left: 3px solid #fff;
+	}
+
+	.fw-accordion .fw-accordion-title {
+		color: $colorText;
+	}
+	
+	.fw-accordion .fw-accordion-title.ui-state-active {
+		color: #fff;
+	}
+}
+
+/**
+*  Section Dark Text
+*/
+
+.section-dark {
+	color: $colorText;
+
+	a {
+		color: $colorText;
+	}
+
+	.progress-bar {
+		color: $colorTextDark;
+	}
+	
+	h1, h2, h3, h4, h5, h6, .btn, caption {
+		color: $colorTextDark;
+	}
+
+	.special-subtitle, .special-subtitle-left, .special-subtitle-right, .special-subtitle-both {
+		color: $colorText;
+	}
+
+	.btn.btn-color, button[type='submit'], input[type='submit'] {
+		color: #fff;
+
+		&:hover, &:active, &:active:focus {
+			color: $colorTextDark;
+		}
+
+	}
+
+	blockquote {
+		background-color: transparent;
+	}
+
+	.ps-container .ps-scrollbar-y {
+		border: 3px solid #000;
+	}
+
+	.ps-scrollbar-y-rail {
+		border-left: 3px solid #000;
+	}
+
+	input[type="text"], input[type="email"], input[type="search"], input[type="tel"], input[type="password"], textarea {
+		background-color: $colorBgMedium;
+	}
+}
+
+/**
+*  Wrap Form
+*/
+
+.wrap-forms .header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/**
+*  Fullscreen
+*/
+
+.fullscreen-wrapper {
+	min-height: 100%;
+	min-height: 100vh;
+}
+
+/**
+*  Halfscreen
+*/
+
+.w35-wrapper,
+.w40-wrapper,
+.w50-wrapper,
+.w60-wrapper,
+.w65-wrapper,
+.w100-wrapper {
+	position: relative;
+	height: 100%;
+	height: 100vh;
+}
+
+.w35-wrapper {
+	width: 35%;
+}
+.w40-wrapper {
+	width: 40%;
+}
+.w50-wrapper {
+	width: 50%;
+}
+.w60-wrapper {
+	width: 60%;
+}
+.w65-wrapper {
+	width: 65%;
+}
+.w100-wrapper {
+	width: 100%;
+}
+
+.w-wrapper-fixed {
+	position: fixed !important; 
+
+	&.pull-left {
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: auto;
+	}
+	&.pull-right {
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: auto;
+	}
+}
+
+/**
+*  Position
+*/
+
+.pos-r {
+	position: relative;
+}
+
+/**
+* Floats
+*/
+.float-r {
+	float: right;
+}
+
+/**
+*  Vertical Center
+*/
+.el-table {
+	display: table;
+	width: 100%;
+	.el-table-cell {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+/**
+*  Vertical Center 3
+*/
+
+.el-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/**
+*  Opacity
+*/
+
+.opacity-0 {
+	opacity: 0.1;
+	visibility: hidden;
+}

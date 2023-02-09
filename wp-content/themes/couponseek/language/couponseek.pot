@@ -1,0 +1,1134 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: CouponSeek\n"
+"POT-Creation-Date: 2021-05-05 12:04+0300\n"
+"PO-Revision-Date: 2021-05-05 12:01+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:9
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:11
+msgid "Whatever You Were Looking For Was Not Found."
+msgstr ""
+
+#: 404.php:14 archive.php:58 attachment.php:60 page.php:69 search.php:61
+#: single-elementor_library.php:29 single.php:143
+#: woocommerce/loop/no-products-found.php:26
+msgid "Back To Home"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:386
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:827
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2533
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:387
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:388
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:934
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:1121
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3509
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3509
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: archive.php:40 search.php:43 template-blog.php:64
+msgid "Previous Page"
+msgstr ""
+
+#: archive.php:41 search.php:44 template-blog.php:67
+msgid "Next Page"
+msgstr ""
+
+#: archive.php:57 attachment.php:58 page.php:67 search.php:60
+#: single-elementor_library.php:27 single.php:141
+msgid "Sorry, no posts were found!"
+msgstr ""
+
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:18
+msgid "Comments"
+msgstr ""
+
+#: comments.php:28
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:29
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:40
+msgid "Trackbacks and Pingbacks"
+msgstr ""
+
+#: comments.php:51
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:65 woocommerce/single-product-reviews.php:77
+msgid "Name"
+msgstr ""
+
+#: comments.php:68 woocommerce/single-product-reviews.php:79
+msgid "Email"
+msgstr ""
+
+#: comments.php:71
+msgid "Website"
+msgstr ""
+
+#: comments.php:75
+msgid "Comment"
+msgstr ""
+
+#: comments.php:76
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:77
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"%4$s\">%5$s "
+"&raquo;</a>"
+msgstr ""
+
+#: comments.php:77
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:77
+msgid "Log out"
+msgstr ""
+
+#: comments.php:80
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:81
+#, php-format
+msgid "Leave a Reply to %s. "
+msgstr ""
+
+#: comments.php:84
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:85
+msgid "Post Comment"
+msgstr ""
+
+#: functions.php:18
+msgid "Elementor"
+msgstr ""
+
+#: functions.php:23
+msgid "Advanced Custom Fields Pro"
+msgstr ""
+
+#: functions.php:30
+msgid "WooCommerce"
+msgstr ""
+
+#: functions.php:37
+msgid "One Click Demo Import"
+msgstr ""
+
+#: functions.php:44
+msgid "Envato Market"
+msgstr ""
+
+#: functions.php:52
+msgid "WC Vendors"
+msgstr ""
+
+#: functions.php:59
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions.php:66
+msgid "Subsolar Twitter Widget"
+msgstr ""
+
+#: functions.php:74
+msgid "Subsolar SVG Icons"
+msgstr ""
+
+#: functions.php:82
+msgid "CouponSeek Functionalities"
+msgstr ""
+
+#: functions.php:90
+msgid "CouponSeek Social Share"
+msgstr ""
+
+#: inc/helpers.php:133
+msgid "No vendors found."
+msgstr ""
+
+#: inc/helpers.php:137
+msgid "No Vendors detected. Please install the WC Vendors plugin."
+msgstr ""
+
+#: inc/helpers.php:172
+msgid "None"
+msgstr ""
+
+#: inc/helpers.php:188
+#, php-format
+msgid "No items in %s taxonomy."
+msgstr ""
+
+#: inc/helpers.php:190
+#, php-format
+msgid ""
+"There is no %s taxonomy detected. Please install the corresponding plugin."
+msgstr ""
+
+#: inc/helpers.php:301
+msgid "&larr; Previous"
+msgstr ""
+
+#: inc/helpers.php:302
+msgid "Next &rarr;"
+msgstr ""
+
+#: inc/helpers.php:439 inc/helpers.php:496
+msgid "[Edit]"
+msgstr ""
+
+#: inc/helpers.php:444
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: inc/helpers.php:494
+msgid "Pingback:"
+msgstr ""
+
+#: inc/hooks.php:75
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/hooks.php:76
+msgid "Add a sidebar for the blog and blog posts."
+msgstr ""
+
+#: inc/hooks.php:86
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/hooks.php:87
+msgid "Add a sidebar for the WooCommerce Shop Page."
+msgstr ""
+
+#: inc/hooks.php:99
+msgid "Footer Column 1"
+msgstr ""
+
+#: inc/hooks.php:100
+msgid "If this is set, your footer will be 1 column"
+msgstr ""
+
+#: inc/hooks.php:110
+msgid "Footer Column 2"
+msgstr ""
+
+#: inc/hooks.php:111
+msgid "If this and Footer Column 1 are set, your footer will be 2 columns."
+msgstr ""
+
+#: inc/hooks.php:121
+msgid "Footer Column 3"
+msgstr ""
+
+#: inc/hooks.php:122
+msgid ""
+"If this Footer Column 1 and Footer Column 2 are set, your footer will be 3 "
+"columns."
+msgstr ""
+
+#: inc/hooks.php:297 inc/hooks.php:1108
+msgid "Search Results"
+msgstr ""
+
+#: inc/hooks.php:487 wc-vendors/front/vendor-main-header.php:66
+msgid "Visit Website"
+msgstr ""
+
+#: inc/hooks.php:601
+msgid "Expires In"
+msgstr ""
+
+#: inc/hooks.php:617
+msgid "Default"
+msgstr ""
+
+#: inc/hooks.php:618
+msgid "Popular"
+msgstr ""
+
+#: inc/hooks.php:619
+msgid "Rating"
+msgstr ""
+
+#: inc/hooks.php:620
+msgid "Newest"
+msgstr ""
+
+#: inc/hooks.php:621
+msgid "Expiring Soon"
+msgstr ""
+
+#: inc/hooks.php:761 inc/hooks.php:788 inc/hooks.php:806
+#: woocommerce/single-product/price.php:32
+msgid "Price"
+msgstr ""
+
+#: inc/hooks.php:766
+msgid "Value"
+msgstr ""
+
+#: inc/hooks.php:815 woocommerce/single-product/price.php:33
+msgid "Free"
+msgstr ""
+
+#: inc/hooks.php:934 inc/hooks.php:975
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/hooks.php:939 inc/hooks.php:980
+msgid "Cart - "
+msgstr ""
+
+#: inc/hooks.php:1035
+msgid "Profile"
+msgstr ""
+
+#: inc/hooks.php:1052 inc/hooks.php:1161
+msgid "Vendor Dashboard"
+msgstr ""
+
+#: inc/hooks.php:1056 wc-vendors/dashboard/links.php:30
+msgid "User Profile"
+msgstr ""
+
+#: inc/hooks.php:1057
+msgid "Log Out"
+msgstr ""
+
+#: inc/hooks.php:1059
+msgid "Log In / Signup"
+msgstr ""
+
+#: inc/hooks.php:1061
+msgid "Log In"
+msgstr ""
+
+#: inc/hooks.php:1086
+msgid "CouponSeek Skin"
+msgstr ""
+
+#: inc/hooks.php:1158
+msgid "You haven't configured your vendor settings!"
+msgstr ""
+
+#: inc/hooks.php:1158
+msgid "You can configure your Shop Settings "
+msgstr ""
+
+#: inc/hooks.php:1158
+msgid "here"
+msgstr ""
+
+#: inc/hooks.php:1326
+msgid ""
+"This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: inc/hooks.php:1328 woocommerce/myaccount/form-login.php:41
+#: woocommerce/myaccount/form-login.php:92
+msgid "Password"
+msgstr ""
+
+#: inc/hooks.php:1328
+msgid "Enter"
+msgstr ""
+
+#: inc/hooks.php:1385
+msgid "Welcome to CouponSeek!"
+msgstr ""
+
+#: inc/hooks.php:1386
+msgid ""
+"Thank you for installing CouponSeek. To get to know the theme better, you "
+"can find its documentation in the zip package that you downloaded and also "
+"online - "
+msgstr ""
+
+#: inc/hooks.php:1386
+msgid "Read Documentation"
+msgstr ""
+
+#: inc/hooks.php:1387
+msgid "Dismiss"
+msgstr ""
+
+#: inc/hooks.php:1436
+msgid "Google API Key Error!"
+msgstr ""
+
+#: inc/hooks.php:1438
+msgid "Please see here for more information - "
+msgstr ""
+
+#: inc/hooks.php:1438
+msgid "Google API FAQ"
+msgstr ""
+
+#: inc/includes/subsolar-widget-fields/subsolar-widget-fields.php:68
+msgid "Remove Image"
+msgstr ""
+
+#: inc/includes/subsolar-widget-fields/subsolar-widget-fields.php:76
+#: inc/includes/subsolar-widget-fields/subsolar-widget-fields.php:88
+msgid "Select..."
+msgstr ""
+
+#: inc/menus.php:7
+msgid "Main Menu"
+msgstr ""
+
+#: inc/static-admin.php:71
+msgid "Appearance > Theme Settings > General"
+msgstr ""
+
+#: inc/static-admin.php:74
+#, php-format
+msgid ""
+"Please enter your Google Maps API Key in the <strong>Google API Key</strong> "
+"field in %s. If the problem still persists, see the JavaScript console of "
+"your browser for technical details."
+msgstr ""
+
+#: inc/static.php:263 woocommerce/single-product/add-to-cart/grouped.php:70
+msgid "Expired!"
+msgstr ""
+
+#: inc/static.php:264
+msgid "day"
+msgstr ""
+
+#: inc/static.php:265
+msgid "days"
+msgstr ""
+
+#: inc/static.php:266
+msgid "hour"
+msgstr ""
+
+#: inc/static.php:267
+msgid "hours"
+msgstr ""
+
+#: inc/static.php:268
+msgid "minute"
+msgstr ""
+
+#: inc/static.php:269
+msgid "minutes"
+msgstr ""
+
+#: page.php:31 page.php:42 single.php:40
+msgid "Pages:"
+msgstr ""
+
+#: partials/content-deal-modal.php:30
+msgid "Code is copied"
+msgstr ""
+
+#: partials/content-deal-modal.php:38
+msgid "Buy Product"
+msgstr ""
+
+#: partials/content-deal-modal.php:49
+msgid "Please copy the following code."
+msgstr ""
+
+#: partials/excerpt-post.php:30
+msgid "Read More"
+msgstr ""
+
+#: search.php:21
+msgid "Search Results for: "
+msgstr ""
+
+#: searchform.php:5
+msgid "Search..."
+msgstr ""
+
+#: single.php:60
+msgid "Tags:"
+msgstr ""
+
+#: single.php:88
+msgid "Next Post"
+msgstr ""
+
+#: single.php:109
+msgid "Previous Post"
+msgstr ""
+
+#: wc-vendors/dashboard/date-picker.php:20
+msgid "From:"
+msgstr ""
+
+#: wc-vendors/dashboard/date-picker.php:24
+msgid "To:"
+msgstr ""
+
+#: wc-vendors/dashboard/date-picker.php:29
+msgid "Show"
+msgstr ""
+
+#: wc-vendors/dashboard/links.php:21
+msgid "View Your Shop"
+msgstr ""
+
+#: wc-vendors/dashboard/links.php:22
+msgid "Shop Settings"
+msgstr ""
+
+#: wc-vendors/dashboard/links.php:25
+msgid "Add New Product"
+msgstr ""
+
+#: wc-vendors/dashboard/links.php:26
+msgid "Edit Products"
+msgstr ""
+
+#: wc-vendors/dashboard/settings/paypal-email-form.php:19
+msgid "PayPal Address"
+msgstr ""
+
+#: wc-vendors/dashboard/settings/paypal-email-form.php:20
+msgid "Your PayPal address can be used to manually send you your commission."
+msgstr ""
+
+#: wc-vendors/dashboard/settings/settings.php:7
+msgid ""
+"You can adjust your Shop Settings here - Shop Name, Shop Logo, Description "
+"and more."
+msgstr ""
+
+#: wc-vendors/dashboard/settings/settings.php:10
+#: wc-vendors/dashboard/settings/settings.php:59
+msgid "Back To Dashboard"
+msgstr ""
+
+#: wc-vendors/dashboard/settings/settings.php:12
+msgid "Settings"
+msgstr ""
+
+#: wc-vendors/dashboard/settings/settings.php:58
+msgid "Save"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:33 woocommerce/cart/cart-totals.php:34
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:55 woocommerce/cart/cart-totals.php:56
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:71
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:92 woocommerce/cart/cart-totals.php:93
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:27
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/content-single-product.php:134
+msgid "Expires In:"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:25
+msgid "No products were found."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:30
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:37
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:49
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:51
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:55
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:69
+#: woocommerce/myaccount/form-login.php:102
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:78
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:85
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%1$s Review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:36
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:58
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:71
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:72
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:95
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:96
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:97
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:102
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:111
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:31
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:31
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/stock.php:33
+msgid "Available"
+msgstr ""
+
+#: woocommerce/single-product/stock.php:45
+msgid "Purchased"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "CouponSeek"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://subsolardesigns.com/couponseek"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Deals & Discounts WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Subsolar Designs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://subsolardesigns.com/"
+msgstr ""

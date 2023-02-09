@@ -1,0 +1,35 @@
+/**
+* ----------------------------------------------------------------------------------------
+*    Isotope
+* ----------------------------------------------------------------------------------------
+*/
+
+.js .is-isotope {
+	display: none;
+}
+
+.is-isotope {
+	width: auto;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	overflow: hidden;
+	& > * {
+		transition: opacity .4s;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.bg-image {
+		width: 101%;
+		width: calc(100% + 2px);
+	}
+	
+	img {
+		display: block;
+		width: 100.4%;
+		width: calc(100% + 1px);
+		max-width: none;
+	}
+}

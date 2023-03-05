@@ -17,11 +17,6 @@
 
 
 
-(src/assets/docs-images/finnkino-user-management-laptop.png)
-
-(src/assets/docs-images/finnkino-movie-management-laptop.png)
-
-
 
 ## Features Overview
 

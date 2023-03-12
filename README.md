@@ -13,6 +13,9 @@
 
 
 ## Some project's views on devices
+## Watch an explanatory video
+
+https://youtu.be/Tk6a7pHJLR8
 
 
 
